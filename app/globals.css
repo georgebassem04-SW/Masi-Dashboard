@@ -1,0 +1,110 @@
+/*
+ * GLOBAL STYLES — the dashboard's colours, fonts and page-wide rules.
+ * ------------------------------------------------------------------
+ * The look matches the clickable design ("Store Dashboard Prototype"):
+ * warm light background, dark sidebar, gold accent.
+ *
+ * To change a colour everywhere: edit the value in :root below (e.g. --primary).
+ * The names in @theme are what make Tailwind classes like "bg-primary" or "text-muted-foreground" work.
+ */
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --background: #f4f1ea; /* page background */
+  --foreground: #1f1d1a; /* main text */
+  --card: #ffffff;
+  --card-foreground: #1f1d1a;
+  --popover: #ffffff;
+  --popover-foreground: #1f1d1a;
+  --primary: #1f1d1a; /* main buttons (dark) */
+  --primary-foreground: #ffffff;
+  --gold: #8a6420; /* accent: save/publish buttons, active states, switches */
+  --gold-foreground: #ffffff;
+  --secondary: #faf8f4;
+  --secondary-foreground: #1f1d1a;
+  --accent: #faf3e4; /* selected row / hover */
+  --accent-foreground: #1f1d1a;
+  --muted: #faf8f4;
+  --muted-foreground: #6b645a; /* secondary text */
+  --border: #e4ded2;
+  --input: #d9d2c4;
+  --ring: #8a6420;
+  --destructive: #8a2b1d;
+
+  /* Sidebar */
+  --sidebar: #1f1d1a;
+  --sidebar-foreground: #cfc8ba;
+  --sidebar-muted: #8a8174;
+  --sidebar-hover: #2c2925;
+  --sidebar-active: #3a3328;
+  --sidebar-active-foreground: #f2d9a2;
+
+  /* Status colours (order status, stock, message state). Background + text pairs. */
+  --status-new-bg: #e3ecf8;
+  --status-new-fg: #1d4e89;
+  --status-progress-bg: #fbebd0;
+  --status-progress-fg: #7a4a0b;
+  --status-shipped-bg: #ddf0ec;
+  --status-shipped-fg: #115e54;
+  --status-done-bg: #e6f0dd;
+  --status-done-fg: #365314;
+  --status-cancel-bg: #f6e0dc;
+  --status-cancel-fg: #8a2b1d;
+
+  --radius: 0.75rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-gold: var(--gold);
+  --color-gold-foreground: var(--gold-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-destructive: var(--destructive);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-muted: var(--sidebar-muted);
+  --color-sidebar-hover: var(--sidebar-hover);
+  --color-sidebar-active: var(--sidebar-active);
+  --color-sidebar-active-foreground: var(--sidebar-active-foreground);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  /* Fonts are loaded in lib/fonts.ts */
+  --font-sans: var(--font-body), system-ui, sans-serif;
+  --font-heading: var(--font-display), var(--font-body), serif;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-heading);
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "s1",
+    "name": {
+      "en": "Store Manager",
+      "ar": "مدير المتجر"
+    },
+    "email": "owner@demo.store",
+    "role": "owner",
+    "active": true,
+    "passwordHash": "scrypt$985cf7a6bfc053a9490395dfd16ec74b$61012b0e8d47bd385cb678e1a4b3c2586ef5f3d9d01f1339a96ebe5e3a4eab7abf270851cc579a01488552232f68139bc4db3970e1ea1fa6edea7ed6b51dd54d"
+  },
+  {
+    "id": "s2",
+    "name": {
+      "en": "Orders Staff",
+      "ar": "موظف الطلبات"
+    },
+    "email": "orders@demo.store",
+    "role": "orders",
+    "active": true,
+    "passwordHash": "scrypt$5e351fca0f5e3eac35a23c4f17c16c22$c7b5ca6c02d1516b555eb88042b82da17227583c9b0a5e8446b0e8ccc0ba9150481ce9e6444b034ed9482f54513f55814bee45a64fd861e8c0cce54c4ad7a5eb"
+  },
+  {
+    "id": "s3",
+    "name": {
+      "en": "Content Editor",
+      "ar": "مسؤول المحتوى"
+    },
+    "email": "content@demo.store",
+    "role": "content",
+    "active": true,
+    "passwordHash": "scrypt$0336ddad6b8a228bbc7dad621b4565ff$0eab6439e7eaaf553f4b9a1e5089afe876c3973cd68fb3d09ee05854609338df47cd65271dee8d070e6e5116a4119bdd7f1b15f548eab1b9a0ec0071b5c6b21d"
+  },
+  {
+    "id": "s4",
+    "name": {
+      "en": "Website Designer",
+      "ar": "مصمم الموقع"
+    },
+    "email": "designer@demo.store",
+    "role": "designer",
+    "active": true,
+    "passwordHash": "scrypt$8babc564b49bd1dd92669cae022cf2fb$f8143b0c796d358abaf7117c076714a618eff975b6939d90d4eb4d87409fdd90330a533dfc2ba44a0b144f797f0180bc7cc9b4eccb142841f2e47b1bbb06af45"
+  }
+]

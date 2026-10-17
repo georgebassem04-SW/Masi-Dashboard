@@ -1,0 +1,78 @@
+{
+  "slug": "contact",
+  "status": "published",
+  "menu": "header",
+  "updatedAt": "2026-10-16T09:00:00Z",
+  "title": {
+    "ar": "تواصل معنا",
+    "en": "Contact Us"
+  },
+  "seo": {
+    "title": {
+      "ar": "تواصل معنا",
+      "en": "Contact Us"
+    }
+  },
+  "sections": [
+    {
+      "id": "c1",
+      "type": "page_hero",
+      "data": {
+        "title": {
+          "ar": "كيف نقدر نساعدك؟",
+          "en": "How Can We Help You?"
+        },
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0989/4605/6482/files/The_hand_leads_the_gold_completes18K_GoldMake_it_yours_visit_our_esteemed_partners_across_Egypt.jpg"
+        }
+      },
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "c2",
+      "type": "contact",
+      "data": {
+        "title": {
+          "ar": "ابعتلنا رسالة",
+          "en": "Send us a message"
+        },
+        "subtitle": {
+          "ar": "نرد خلال مواعيد العمل",
+          "en": "We reply during working hours"
+        },
+        "showContactInfo": true,
+        "showBranchSelect": false,
+        "successMessage": {
+          "ar": "شكراً لتواصلك! هنرد عليك قريباً.",
+          "en": "Thank you for contacting us! We'll get back to you soon."
+        },
+        "subjects": [
+          {
+            "value": "general",
+            "label": {
+              "ar": "استفسار عام",
+              "en": "General inquiry"
+            }
+          },
+          {
+            "value": "order",
+            "label": {
+              "ar": "متابعة طلب",
+              "en": "Order follow-up"
+            }
+          },
+          {
+            "value": "complaint",
+            "label": {
+              "ar": "شكوى أو اقتراح",
+              "en": "Complaint or suggestion"
+            }
+          }
+        ]
+      },
+      "isActive": true,
+      "sortOrder": 2
+    }
+  ]
+}

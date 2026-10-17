@@ -1,0 +1,43 @@
+{
+  "slug": "terms",
+  "status": "published",
+  "menu": "footer",
+  "updatedAt": "2026-09-01T10:00:00Z",
+  "title": {
+    "ar": "الشروط والأحكام",
+    "en": "Terms & conditions"
+  },
+  "seo": {
+    "description": {
+      "ar": "شروط استخدام الموقع والشراء منه.",
+      "en": "Terms for using and buying from this website."
+    }
+  },
+  "sections": [
+    {
+      "id": "t1",
+      "type": "page_hero",
+      "isActive": true,
+      "sortOrder": 1,
+      "data": {
+        "title": {
+          "ar": "الشروط والأحكام",
+          "en": "Terms & conditions"
+        }
+      }
+    },
+    {
+      "id": "t2",
+      "type": "rich_text",
+      "isActive": true,
+      "sortOrder": 2,
+      "data": {
+        "body": {
+          "ar": "<h2>الأسعار</h2><p>تُعرض الأسعار حسب سعر الذهب وقت التصفح، والسعر النهائي هو المؤكد عند إتمام الطلب.</p><h2>الطلبات</h2><p>نؤكد كل طلب بالهاتف أو واتساب قبل التجهيز. يحق لنا إلغاء الطلب إذا تعذّر التواصل مع العميل.</p><h2>الدفع</h2><p>الدفع بالبطاقة أو التحويل البنكي أو عند الاستلام حسب الحد المسموح لكل طريقة.</p><p><em>[يُراجع هذا النص من المستشار القانوني للمتجر قبل النشر]</em></p>",
+          "en": "<h2>Prices</h2><p>Prices follow the gold price at the time you browse; the final price is the one confirmed at checkout.</p><h2>Orders</h2><p>We confirm every order by phone or WhatsApp before preparing it, and may cancel an order if we can't reach the customer.</p><h2>Payment</h2><p>Card, bank transfer or cash on delivery, within the limit set for each method.</p><p><em>[To be reviewed by the store's legal adviser before publishing]</em></p>"
+        },
+        "width": "narrow"
+      }
+    }
+  ]
+}

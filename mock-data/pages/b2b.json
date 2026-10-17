@@ -1,0 +1,74 @@
+{
+  "slug": "b2b",
+  "status": "draft",
+  "menu": "none",
+  "updatedAt": "2026-10-16T09:00:00Z",
+  "title": {
+    "ar": "الجملة B2B",
+    "en": "B2B"
+  },
+  "seo": {
+    "title": {
+      "ar": "الجملة B2B",
+      "en": "B2B"
+    }
+  },
+  "sections": [
+    {
+      "id": "w1",
+      "type": "page_hero",
+      "data": {
+        "title": {
+          "ar": "التعامل بالجملة",
+          "en": "Wholesale Access"
+        },
+        "subtitle": {
+          "ar": "مجموعات حصرية من الذهب عيار 18 لشركاء الجملة داخل مصر وخارجها",
+          "en": "Exclusive 18K gold collections for wholesale partners in Egypt and abroad"
+        }
+      },
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "w2",
+      "type": "rich_text",
+      "data": {
+        "width": "narrow",
+        "body": {
+          "ar": "<p>كينج جولد مصنع مجوهرات ذهب عيار 18 بيقدم مجموعات حصرية لشركاء الجملة. سجّل بياناتك وفريق المبيعات هيتواصل معاك.</p>",
+          "en": "<p>King Gold is an 18K gold jewelry manufacturer offering exclusive collections for international wholesale partners. Send us your details and our sales team will contact you.</p>"
+        }
+      },
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "w3",
+      "type": "contact",
+      "data": {
+        "title": {
+          "ar": "طلب تسجيل جملة",
+          "en": "Wholesale registration"
+        },
+        "showContactInfo": true,
+        "showBranchSelect": false,
+        "successMessage": {
+          "ar": "شكراً! فريق الجملة هيتواصل معاك قريباً.",
+          "en": "Thank you! Our wholesale team will contact you soon."
+        },
+        "subjects": [
+          {
+            "value": "wholesale",
+            "label": {
+              "ar": "التسجيل كشريك جملة",
+              "en": "Register as a wholesale partner"
+            }
+          }
+        ]
+      },
+      "isActive": true,
+      "sortOrder": 3
+    }
+  ]
+}

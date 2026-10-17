@@ -1,0 +1,43 @@
+{
+  "slug": "privacy",
+  "status": "published",
+  "menu": "footer",
+  "updatedAt": "2026-09-01T10:00:00Z",
+  "title": {
+    "ar": "سياسة الخصوصية",
+    "en": "Privacy policy"
+  },
+  "seo": {
+    "description": {
+      "ar": "كيف نستخدم بياناتك ونحميها.",
+      "en": "How we use and protect your data."
+    }
+  },
+  "sections": [
+    {
+      "id": "p1",
+      "type": "page_hero",
+      "isActive": true,
+      "sortOrder": 1,
+      "data": {
+        "title": {
+          "ar": "سياسة الخصوصية",
+          "en": "Privacy policy"
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "type": "rich_text",
+      "isActive": true,
+      "sortOrder": 2,
+      "data": {
+        "body": {
+          "ar": "<p>نجمع فقط البيانات اللازمة لتنفيذ طلبك والتواصل معك: الاسم والهاتف والبريد والعنوان.</p><ul><li>لا نبيع بياناتك ولا نشاركها إلا مع شركة الشحن لتوصيل طلبك.</li><li>بيانات البطاقة تُعالَج لدى بوابة الدفع ولا نحتفظ بها.</li><li>يمكنك طلب حذف حسابك في أي وقت من صفحة «تواصل معنا».</li></ul>",
+          "en": "<p>We only collect what we need to deliver your order and contact you: name, phone, email and address.</p><ul><li>We never sell your data, and only share it with the courier delivering your order.</li><li>Card details are handled by the payment gateway; we don't store them.</li><li>You can ask us to delete your account at any time from the Contact page.</li></ul>"
+        },
+        "width": "narrow"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "contact": {
+    "email": "info@masi.example",
+    "phone": "+20 100 000 0000",
+    "whatsapp": "+201000000000",
+    "address": {
+      "en": "Heliopolis, Cairo, Egypt",
+      "ar": "مصر الجديدة، القاهرة، مصر"
+    },
+    "hours": {
+      "en": "Sat – Thu: 11am – 10pm",
+      "ar": "السبت – الخميس: ١١ ص – ١٠ م"
+    }
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "tiktok": "https://www.tiktok.com/"
+  },
+  "options": {
+    "guestCheckout": true,
+    "showWeight": false,
+    "showGoldPrices": false
+  },
+  "ordersNotifyEmail": ""
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "returns",
+  "status": "published",
+  "menu": "footer",
+  "updatedAt": "2026-09-01T10:00:00Z",
+  "title": {
+    "ar": "سياسة الاستبدال والاسترجاع",
+    "en": "Returns & exchange policy"
+  },
+  "seo": {
+    "description": {
+      "ar": "متى وكيف تستبدل أو تسترجع قطعتك.",
+      "en": "When and how to exchange or return a piece."
+    }
+  },
+  "sections": [
+    {
+      "id": "r1",
+      "type": "page_hero",
+      "isActive": true,
+      "sortOrder": 1,
+      "data": {
+        "title": {
+          "ar": "سياسة الاستبدال والاسترجاع",
+          "en": "Returns & exchange policy"
+        }
+      }
+    },
+    {
+      "id": "r2",
+      "type": "rich_text",
+      "isActive": true,
+      "sortOrder": 2,
+      "data": {
+        "body": {
+          "ar": "<p>يمكنك استبدال القطعة أو استرجاعها خلال <strong>١٤ يوماً</strong> من الاستلام بالشروط التالية:</p><ul><li>أن تكون القطعة بحالتها الأصلية دون استخدام أو تعديل.</li><li>وجود الفاتورة والشهادة إن وُجدت.</li><li>القطع المصنوعة حسب الطلب أو المحفورة بالأسماء لا تُسترجع.</li></ul><p>يُرد المبلغ بسعر الذهب يوم الاسترجاع بعد خصم المصنعية <em>[تُحدَّد النسبة من إدارة المتجر]</em>.</p>",
+          "en": "<p>You can exchange or return a piece within <strong>14 days</strong> of delivery if:</p><ul><li>The piece is in its original condition, unused and unaltered.</li><li>You have the invoice, and the certificate if there is one.</li><li>Made-to-order or engraved pieces can't be returned.</li></ul><p>Refunds use the gold price on the day of return, minus the making charge <em>[rate set by the store]</em>.</p>"
+        },
+        "width": "narrow"
+      }
+    }
+  ]
+}

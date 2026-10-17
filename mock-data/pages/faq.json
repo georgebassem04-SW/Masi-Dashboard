@@ -1,0 +1,112 @@
+{
+  "slug": "faq",
+  "status": "published",
+  "menu": "footer",
+  "updatedAt": "2026-09-12T10:00:00Z",
+  "title": {
+    "ar": "الأسئلة الشائعة",
+    "en": "FAQ"
+  },
+  "seo": {
+    "description": {
+      "ar": "إجابات عن الأسعار والمصنعية والتوصيل والاستبدال.",
+      "en": "Answers about prices, making charges, delivery and exchanges."
+    }
+  },
+  "sections": [
+    {
+      "id": "f1",
+      "type": "page_hero",
+      "isActive": true,
+      "sortOrder": 1,
+      "data": {
+        "title": {
+          "ar": "الأسئلة الشائعة",
+          "en": "Frequently asked questions"
+        },
+        "subtitle": {
+          "ar": "لم تجد إجابتك؟ تواصل معنا وسنرد عليك سريعاً.",
+          "en": "Can't find your answer? Contact us and we'll reply quickly."
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "type": "faq",
+      "isActive": true,
+      "sortOrder": 2,
+      "data": {
+        "title": {
+          "ar": "الأسعار والمصنعية",
+          "en": "Prices & making charges"
+        },
+        "items": [
+          {
+            "question": {
+              "ar": "كيف يُحسب سعر القطعة؟",
+              "en": "How is the price of a piece calculated?"
+            },
+            "answer": {
+              "ar": "<p>السعر = وزن القطعة × سعر جرام الذهب لعيارها اليوم + المصنعية + سعر الأحجار إن وُجدت. سعر الذهب يتحدّث عدة مرات يومياً.</p>",
+              "en": "<p>Price = the piece's weight × today's gold price per gram for its karat + the making charge + stones, if any. The gold price updates several times a day.</p>"
+            }
+          },
+          {
+            "question": {
+              "ar": "هل يتغير السعر بعد إضافة القطعة للسلة؟",
+              "en": "Can the price change after I add a piece to the cart?"
+            },
+            "answer": {
+              "ar": "<p>نثبّت السعر لمدة ١٥ دقيقة أثناء إتمام الطلب. إذا تغيّر سعر الذهب بعدها نعرض لك السعر الجديد قبل التأكيد.</p>",
+              "en": "<p>We lock the price for 15 minutes while you check out. If the gold price changes after that, we show you the new price before you confirm.</p>"
+            }
+          },
+          {
+            "question": {
+              "ar": "هل الضريبة مشمولة؟",
+              "en": "Is VAT included?"
+            },
+            "answer": {
+              "ar": "<p>ضريبة القيمة المضافة تُحسب على المصنعية فقط وتظهر منفصلة في صفحة الدفع.</p>",
+              "en": "<p>VAT is charged on the making charge only and is shown separately at checkout.</p>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "f3",
+      "type": "faq",
+      "isActive": true,
+      "sortOrder": 3,
+      "data": {
+        "title": {
+          "ar": "التوصيل والاستبدال",
+          "en": "Delivery & exchanges"
+        },
+        "items": [
+          {
+            "question": {
+              "ar": "كم يستغرق التوصيل؟",
+              "en": "How long does delivery take?"
+            },
+            "answer": {
+              "ar": "<p>من يوم إلى ٦ أيام حسب المحافظة. ويمكنك الاستلام من أقرب فرع مجاناً.</p>",
+              "en": "<p>1 to 6 days depending on your governorate. You can also pick up from the nearest branch for free.</p>"
+            }
+          },
+          {
+            "question": {
+              "ar": "هل يمكنني استبدال القطعة؟",
+              "en": "Can I exchange a piece?"
+            },
+            "answer": {
+              "ar": "<p>نعم، خلال ١٤ يوماً بشرط أن تكون القطعة بحالتها ومعها الفاتورة. التفاصيل في <a href=\"/ar/pages/returns\">سياسة الاستبدال والاسترجاع</a>.</p>",
+              "en": "<p>Yes, within 14 days if the piece is in its original condition with the invoice. Details in our <a href=\"/en/pages/returns\">returns policy</a>.</p>"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

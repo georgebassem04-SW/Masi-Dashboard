@@ -1,0 +1,667 @@
+[
+  {
+    "id": "ms1",
+    "sku": "MS001",
+    "slug": "riviera-tennis-necklace",
+    "name": {
+      "en": "Riviera Tennis Necklace",
+      "ar": "قلادة ريفييرا تنس"
+    },
+    "description": {
+      "en": "A continuous line of brilliant-cut stones, graduated by hand so the light gathers at the centre. Made to be worn alone, or layered with the pieces you already love. 18K white gold (750/1000) · Brilliant-cut diamonds · Length: 42 cm.",
+      "ar": "خط متصل من الأحجار البراقة، متدرج يدويًا ليتجمع الضوء في المنتصف. تُلبس وحدها أو مع قطعك المفضلة. ذهب أبيض عيار 18 (750/1000) · ألماس براق · الطول: 42 سم."
+    },
+    "categoryId": "cat-necklaces",
+    "metal": "white_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/riviera-1.jpg",
+        "width": 1000,
+        "height": 1250
+      },
+      {
+        "url": "/clients/masi/products/riviera-2.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms1-v1",
+        "sku": "MS0011",
+        "weightGrams": 12.5,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 7000,
+          "currency": "EGP"
+        },
+        "size": "40 cm"
+      },
+      {
+        "id": "ms1-v2",
+        "sku": "MS0012",
+        "weightGrams": 12.7,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 7600,
+          "currency": "EGP"
+        },
+        "size": "42 cm"
+      },
+      {
+        "id": "ms1-v3",
+        "sku": "MS0013",
+        "weightGrams": 12.9,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 8200,
+          "currency": "EGP"
+        },
+        "size": "45 cm"
+      }
+    ],
+    "tags": [
+      "diamond"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-10-11T09:00:00.000Z",
+    "brandId": "brand-signature"
+  },
+  {
+    "id": "ms2",
+    "sku": "MS002",
+    "slug": "pear-solitaire-ring",
+    "name": {
+      "en": "Pear Solitaire Ring",
+      "ar": "خاتم سوليتير كمثري"
+    },
+    "description": {
+      "en": "A pear-cut stone held by four fine claws on a slim pavé band. 18K yellow gold (750/1000).",
+      "ar": "حجر كمثري الشكل بأربعة مخالب رفيعة على دبلة مرصعة. ذهب أصفر عيار 18 (750/1000)."
+    },
+    "categoryId": "cat-rings",
+    "metal": "yellow_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/pear-solitaire.jpg",
+        "width": 1000,
+        "height": 1250
+      },
+      {
+        "url": "/clients/masi/products/hand-ring.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms2-v1",
+        "sku": "MS0021",
+        "weightGrams": 2.6,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 7000,
+          "currency": "EGP"
+        },
+        "size": "50"
+      },
+      {
+        "id": "ms2-v2",
+        "sku": "MS0022",
+        "weightGrams": 2.8,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 7200,
+          "currency": "EGP"
+        },
+        "size": "52"
+      },
+      {
+        "id": "ms2-v3",
+        "sku": "MS0023",
+        "weightGrams": 3.0,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 7400,
+          "currency": "EGP"
+        },
+        "size": "54"
+      }
+    ],
+    "tags": [
+      "diamond",
+      "gold"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-10-12T09:00:00.000Z",
+    "brandId": "brand-bridal"
+  },
+  {
+    "id": "ms3",
+    "sku": "MS003",
+    "slug": "halo-ring",
+    "name": {
+      "en": "Halo Ring",
+      "ar": "خاتم هالو"
+    },
+    "description": {
+      "en": "A round centre stone framed by a halo of small diamonds. 18K white gold (750/1000).",
+      "ar": "حجر دائري في المنتصف تحيطه هالة من الألماس الصغير. ذهب أبيض عيار 18 (750/1000)."
+    },
+    "categoryId": "cat-rings",
+    "metal": "white_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/halo-ring.jpg",
+        "width": 1000,
+        "height": 1250
+      },
+      {
+        "url": "/clients/masi/products/solitaire-white.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms3-v1",
+        "sku": "MS0031",
+        "weightGrams": 2.8,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 7000,
+          "currency": "EGP"
+        },
+        "size": "52"
+      },
+      {
+        "id": "ms3-v2",
+        "sku": "MS0032",
+        "weightGrams": 3.0,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 7300,
+          "currency": "EGP"
+        },
+        "size": "54"
+      }
+    ],
+    "tags": [
+      "diamond"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-10-13T09:00:00.000Z",
+    "brandId": "brand-bridal"
+  },
+  {
+    "id": "ms4",
+    "sku": "MS004",
+    "slug": "halo-bridal-set",
+    "name": {
+      "en": "Halo Bridal Set",
+      "ar": "طقم هالو للعروس"
+    },
+    "description": {
+      "en": "The Halo ring with its matching pavé band, made to be worn together. 18K white gold (750/1000).",
+      "ar": "خاتم هالو مع الدبلة المرصعة المطابقة له، ليُلبسا معًا. ذهب أبيض عيار 18 (750/1000)."
+    },
+    "categoryId": "cat-rings",
+    "metal": "white_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/halo-bridal-set.jpg",
+        "width": 1000,
+        "height": 1250
+      },
+      {
+        "url": "/clients/masi/products/halo-ring.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms4-v1",
+        "sku": "MS0041",
+        "weightGrams": 4.1,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 7000,
+          "currency": "EGP"
+        },
+        "size": "52"
+      },
+      {
+        "id": "ms4-v2",
+        "sku": "MS0042",
+        "weightGrams": 4.3,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 7500,
+          "currency": "EGP"
+        },
+        "size": "54"
+      }
+    ],
+    "tags": [
+      "diamond"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-10-14T09:00:00.000Z",
+    "brandId": "brand-bridal"
+  },
+  {
+    "id": "ms5",
+    "sku": "MS005",
+    "slug": "nile-bracelet-yellow-gold",
+    "name": {
+      "en": "Nile Bracelet, Flexible, Small Model — Yellow gold",
+      "ar": "سوار النيل، مرن، موديل صغير — ذهب أصفر"
+    },
+    "description": {
+      "en": "Studs and beads in a supple mesh that follows the wrist. 18K gold (750/1000) · Small model · Width: 5 mm.",
+      "ar": "حبات متتالية في شبكة مرنة تتبع حركة المعصم. ذهب عيار 18 (750/1000) · موديل صغير · العرض: 5 مم."
+    },
+    "categoryId": "cat-bracelets",
+    "metal": "yellow_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/nile-yellow.jpg",
+        "width": 1000,
+        "height": 1250
+      },
+      {
+        "url": "/clients/masi/products/tennis-bracelet-gold.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms5-v1",
+        "sku": "MS0051",
+        "weightGrams": 9.4,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 9990,
+          "currency": "EGP"
+        }
+      }
+    ],
+    "tags": [
+      "gold"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-10-15T09:00:00.000Z",
+    "brandId": "brand-signature"
+  },
+  {
+    "id": "ms6",
+    "sku": "MS006",
+    "slug": "nile-bracelet-pink-gold",
+    "name": {
+      "en": "Nile Bracelet, Flexible, Small Model — Pink gold",
+      "ar": "سوار النيل، مرن، موديل صغير — ذهب وردي"
+    },
+    "description": {
+      "en": "Studs and beads in a supple mesh that follows the wrist. 18K gold (750/1000) · Small model · Width: 5 mm.",
+      "ar": "حبات متتالية في شبكة مرنة تتبع حركة المعصم. ذهب عيار 18 (750/1000) · موديل صغير · العرض: 5 مم."
+    },
+    "categoryId": "cat-bracelets",
+    "metal": "rose_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/nile-pink.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms6-v1",
+        "sku": "MS0061",
+        "weightGrams": 9.4,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 9990,
+          "currency": "EGP"
+        }
+      }
+    ],
+    "tags": [
+      "gold"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-10-16T09:00:00.000Z",
+    "brandId": "brand-signature"
+  },
+  {
+    "id": "ms7",
+    "sku": "MS007",
+    "slug": "nile-bracelet-white-gold",
+    "name": {
+      "en": "Nile Bracelet, Flexible, Small Model — White gold",
+      "ar": "سوار النيل، مرن، موديل صغير — ذهب أبيض"
+    },
+    "description": {
+      "en": "Studs and beads in a supple mesh that follows the wrist. 18K gold (750/1000) · Small model · Width: 5 mm.",
+      "ar": "حبات متتالية في شبكة مرنة تتبع حركة المعصم. ذهب عيار 18 (750/1000) · موديل صغير · العرض: 5 مم."
+    },
+    "categoryId": "cat-bracelets",
+    "metal": "white_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/nile-white.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms7-v1",
+        "sku": "MS0071",
+        "weightGrams": 9.4,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 9990,
+          "currency": "EGP"
+        }
+      }
+    ],
+    "tags": [
+      "gold"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-10-17T09:00:00.000Z",
+    "brandId": "brand-signature"
+  },
+  {
+    "id": "ms8",
+    "sku": "MS008",
+    "slug": "promise-solitaire-ring",
+    "name": {
+      "en": "Promise Solitaire Ring",
+      "ar": "خاتم سوليتير بروميس"
+    },
+    "description": {
+      "en": "A raised solitaire on a band set with graduated stones. 18K white gold (750/1000).",
+      "ar": "سوليتير مرتفع على دبلة مرصعة بأحجار متدرجة. ذهب أبيض عيار 18 (750/1000)."
+    },
+    "categoryId": "cat-rings",
+    "metal": "white_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/solitaire-white.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms8-v1",
+        "sku": "MS0081",
+        "weightGrams": 3.2,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 12500,
+          "currency": "EGP"
+        },
+        "size": "52"
+      },
+      {
+        "id": "ms8-v2",
+        "sku": "MS0082",
+        "weightGrams": 3.4,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 12900,
+          "currency": "EGP"
+        },
+        "size": "54"
+      }
+    ],
+    "tags": [
+      "diamond"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-10-18T09:00:00.000Z"
+  },
+  {
+    "id": "ms9",
+    "sku": "MS009",
+    "slug": "classic-gold-band",
+    "name": {
+      "en": "Classic Gold Band",
+      "ar": "دبلة ذهب كلاسيك"
+    },
+    "description": {
+      "en": "A smooth, softly rounded band in polished 18K yellow gold.",
+      "ar": "دبلة ناعمة مستديرة من الذهب الأصفر عيار 18 المصقول."
+    },
+    "categoryId": "cat-rings",
+    "metal": "yellow_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/band-gold.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms9-v1",
+        "sku": "MS0091",
+        "weightGrams": 4.0,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 5400,
+          "currency": "EGP"
+        },
+        "size": "52"
+      },
+      {
+        "id": "ms9-v2",
+        "sku": "MS0092",
+        "weightGrams": 4.2,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 5600,
+          "currency": "EGP"
+        },
+        "size": "56"
+      }
+    ],
+    "tags": [
+      "gold"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-10-19T09:00:00.000Z"
+  },
+  {
+    "id": "ms10",
+    "sku": "MS010",
+    "slug": "cognac-signet-ring",
+    "name": {
+      "en": "Cognac Signet Ring",
+      "ar": "خاتم سيجنت كونياك"
+    },
+    "description": {
+      "en": "A bold signet set with an oval cognac stone. 18K yellow gold (750/1000).",
+      "ar": "خاتم سيجنت جريء بحجر كونياك بيضاوي. ذهب أصفر عيار 18."
+    },
+    "categoryId": "cat-rings",
+    "metal": "yellow_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/signet-gold.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms10-v1",
+        "sku": "MS0101",
+        "weightGrams": 7.2,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 8900,
+          "currency": "EGP"
+        },
+        "size": "54"
+      }
+    ],
+    "tags": [
+      "gold"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-10-20T09:00:00.000Z"
+  },
+  {
+    "id": "ms11",
+    "sku": "MS011",
+    "slug": "riviera-tennis-bracelet",
+    "name": {
+      "en": "Riviera Tennis Bracelet",
+      "ar": "سوار ريفييرا تنس"
+    },
+    "description": {
+      "en": "A line of brilliant stones in 18K yellow gold, with a hidden clasp.",
+      "ar": "صف من الأحجار البراقة في ذهب أصفر عيار 18 بقفل مخفي."
+    },
+    "categoryId": "cat-bracelets",
+    "metal": "yellow_gold",
+    "karat": 18,
+    "pricingMode": "fixed",
+    "makingCharge": {
+      "type": "per_gram",
+      "value": 0
+    },
+    "stones": [],
+    "images": [
+      {
+        "url": "/clients/masi/products/tennis-bracelet-gold.jpg",
+        "width": 1000,
+        "height": 1250
+      }
+    ],
+    "variants": [
+      {
+        "id": "ms11-v1",
+        "sku": "MS0111",
+        "weightGrams": 8.0,
+        "stockQty": 3,
+        "stockStatus": "in_stock",
+        "fixedPrice": {
+          "amount": 11500,
+          "currency": "EGP"
+        }
+      }
+    ],
+    "tags": [
+      "diamond",
+      "gold"
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-10-21T09:00:00.000Z"
+  }
+]

@@ -1,0 +1,15 @@
+# Files that must NEVER go to GitHub
+# Private settings (put them in Vercel → Settings → Environment Variables)
+.env*
+!.env.example
+# Old git link from the King Gold copy
+.git-old
+# Rebuilt automatically
+/node_modules
+/.next/
+*.tsbuildinfo
+next-env.d.ts
+# Local test data and backups
+.mock-db/
+.mock-db.*/
+.vercel

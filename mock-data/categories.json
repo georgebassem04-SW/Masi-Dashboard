@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cat-necklaces",
+    "slug": "necklaces",
+    "name": {
+      "en": "Necklaces",
+      "ar": "سلاسل وقلادات"
+    },
+    "image": {
+      "url": "/clients/masi/products/riviera-1.jpg",
+      "width": 1000,
+      "height": 1250
+    },
+    "sortOrder": 0,
+    "description": {
+      "en": "Fine necklaces in 18K gold and diamonds.",
+      "ar": "قلادات راقية من الذهب عيار 18 والألماس."
+    }
+  },
+  {
+    "id": "cat-bracelets",
+    "slug": "bracelets-bangles",
+    "name": {
+      "en": "Bracelets & Bangles",
+      "ar": "أساور وغوايش"
+    },
+    "image": {
+      "url": "/clients/masi/products/nile-yellow.jpg",
+      "width": 1000,
+      "height": 1250
+    },
+    "sortOrder": 1,
+    "description": {
+      "en": "Bracelets and bangles made to be worn every day.",
+      "ar": "أساور وغوايش تُلبس كل يوم."
+    }
+  },
+  {
+    "id": "cat-rings",
+    "slug": "rings",
+    "name": {
+      "en": "Rings",
+      "ar": "خواتم"
+    },
+    "image": {
+      "url": "/clients/masi/products/pear-solitaire.jpg",
+      "width": 1000,
+      "height": 1250
+    },
+    "sortOrder": 2,
+    "description": {
+      "en": "Solitaires, halos and bands.",
+      "ar": "سوليتير وهالو ودبل."
+    }
+  },
+  {
+    "id": "cat-earrings",
+    "slug": "earrings",
+    "name": {
+      "en": "Earrings",
+      "ar": "حلقان"
+    },
+    "image": {
+      "url": "/clients/masi/products/riviera-2.jpg",
+      "width": 1000,
+      "height": 1250
+    },
+    "sortOrder": 3,
+    "description": {
+      "en": "Earrings for every day and every occasion.",
+      "ar": "حلقان لكل يوم ولكل مناسبة."
+    }
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "vatBase": "making_charge",
+  "vatPercent": 14,
+  "minOrderTotal": 1000,
+  "priceLockMinutes": 15,
+  "termsUrl": "/terms",
+  "shippingZones": [
+    {
+      "id": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      },
+      "fee": 150,
+      "freeOver": 20000,
+      "deliveryTime": {
+        "ar": "١–٢ يوم",
+        "en": "1–2 days"
+      },
+      "isActive": true
+    },
+    {
+      "id": "giza",
+      "name": {
+        "ar": "الجيزة",
+        "en": "Giza"
+      },
+      "fee": 150,
+      "freeOver": 20000,
+      "deliveryTime": {
+        "ar": "١–٢ يوم",
+        "en": "1–2 days"
+      },
+      "isActive": true
+    },
+    {
+      "id": "alex",
+      "name": {
+        "ar": "الإسكندرية",
+        "en": "Alexandria"
+      },
+      "fee": 200,
+      "freeOver": 30000,
+      "deliveryTime": {
+        "ar": "٢–٣ أيام",
+        "en": "2–3 days"
+      },
+      "isActive": true
+    },
+    {
+      "id": "delta",
+      "name": {
+        "ar": "محافظات الدلتا",
+        "en": "Delta governorates"
+      },
+      "fee": 250,
+      "freeOver": 30000,
+      "deliveryTime": {
+        "ar": "٣–٤ أيام",
+        "en": "3–4 days"
+      },
+      "isActive": true
+    },
+    {
+      "id": "upper",
+      "name": {
+        "ar": "محافظات الصعيد",
+        "en": "Upper Egypt"
+      },
+      "fee": 300,
+      "deliveryTime": {
+        "ar": "٤–٦ أيام",
+        "en": "4–6 days"
+      },
+      "isActive": true
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "cod",
+      "type": "cash_on_delivery",
+      "label": {
+        "ar": "الدفع عند الاستلام",
+        "en": "Cash on delivery"
+      },
+      "description": {
+        "ar": "ادفع نقداً عند استلام طلبك",
+        "en": "Pay in cash when your order arrives"
+      },
+      "maxOrderTotal": 50000,
+      "availableFor": [
+        "delivery"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "card",
+      "type": "card",
+      "label": {
+        "ar": "بطاقة بنكية",
+        "en": "Credit / debit card"
+      },
+      "description": {
+        "ar": "فيزا أو ماستركارد — سيتم تحويلك لصفحة الدفع الآمنة",
+        "en": "Visa or Mastercard — you'll be taken to a secure payment page"
+      },
+      "availableFor": [
+        "delivery",
+        "store_pickup"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "bank",
+      "type": "bank_transfer",
+      "label": {
+        "ar": "تحويل بنكي",
+        "en": "Bank transfer"
+      },
+      "description": {
+        "ar": "حوّل المبلغ وسنؤكد طلبك عند وصول التحويل",
+        "en": "Transfer the amount and we'll confirm once it arrives"
+      },
+      "instructions": {
+        "ar": "البنك الأهلي المصري — اسم الحساب: متجر المجوهرات — رقم الحساب: 0000 0000 0000 0000. اكتب رقم الطلب في بيان التحويل.",
+        "en": "National Bank of Egypt — Account name: My Store — Account no.: 0000 0000 0000 0000. Please write your order number in the transfer reference."
+      },
+      "availableFor": [
+        "delivery",
+        "store_pickup"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "store",
+      "type": "pay_in_store",
+      "label": {
+        "ar": "الدفع في الفرع",
+        "en": "Pay at the branch"
+      },
+      "description": {
+        "ar": "ادفع عند استلام القطعة من الفرع",
+        "en": "Pay when you collect your piece at the branch"
+      },
+      "availableFor": [
+        "store_pickup"
+      ],
+      "isActive": true
+    }
+  ]
+}

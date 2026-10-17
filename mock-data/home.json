@@ -1,0 +1,290 @@
+{
+  "sections": [
+    {
+      "id": "ms-hero",
+      "type": "hero",
+      "isActive": true,
+      "sortOrder": 1,
+      "data": {
+        "height": "full",
+        "look": "editorial",
+        "slides": [
+          {
+            "image": {
+              "url": "/clients/masi/home/hero.jpg"
+            },
+            "title": {
+              "en": "MASI Jewelry",
+              "ar": "ماسي للمجوهرات"
+            },
+            "subtitle": {
+              "en": "Everyday moments. *Combining refined* craftsmanship, elegant details, *and lasting* quality. From subtle essentials to bold *statement pieces*, MASI celebrates individuality through jewelry made to be worn, loved, *and remembered.*",
+              "ar": "لحظات كل يوم. *حرفية راقية* وتفاصيل أنيقة *وجودة تدوم*. من القطع البسيطة إلى *القطع اللافتة*، تحتفي ماسي بالتفرّد بمجوهرات تُلبس وتُحَب *وتُتذكَّر.*"
+            },
+            "cta": {
+              "label": {
+                "en": "Discover",
+                "ar": "اكتشف"
+              },
+              "href": "/products"
+            },
+            "style": {
+              "overlay": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ms-collection",
+      "type": "featured_products",
+      "isActive": true,
+      "sortOrder": 2,
+      "data": {
+        "title": {
+          "en": "MASI Collection",
+          "ar": "مجموعة ماسي"
+        },
+        "source": "featured",
+        "limit": 8,
+        "layout": "carousel",
+        "titleStyle": "centered",
+        "allLabel": {
+          "en": "All",
+          "ar": "الكل"
+        },
+        "tabs": [
+          {
+            "label": {
+              "en": "Necklaces",
+              "ar": "قلادات"
+            },
+            "categoryId": "cat-necklaces"
+          },
+          {
+            "label": {
+              "en": "Bracelets & Bangles",
+              "ar": "أساور وغوايش"
+            },
+            "categoryId": "cat-bracelets"
+          },
+          {
+            "label": {
+              "en": "Rings",
+              "ar": "خواتم"
+            },
+            "categoryId": "cat-rings"
+          },
+          {
+            "label": {
+              "en": "Gold",
+              "ar": "ذهب"
+            },
+            "tag": "gold"
+          },
+          {
+            "label": {
+              "en": "Diamond",
+              "ar": "ألماس"
+            },
+            "tag": "diamond"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ms-signature",
+      "type": "product_spotlight",
+      "isActive": true,
+      "sortOrder": 3,
+      "data": {
+        "eyebrow": {
+          "en": "The Signature Collection",
+          "ar": "مجموعة سيجنتشر"
+        },
+        "title": {
+          "en": "Signature *Pieces*",
+          "ar": "قطع *سيجنتشر*"
+        },
+        "text": {
+          "en": "Designs developed exclusively for MASI — shaped by global trends and international sourcing, beyond mass-market design.",
+          "ar": "تصميمات حصرية لماسي — مستوحاة من أحدث الاتجاهات العالمية وبعيدة عن التصميمات المكررة."
+        },
+        "cta": {
+          "label": {
+            "en": "Discover all",
+            "ar": "اكتشف الكل"
+          },
+          "href": "/products"
+        },
+        "image": {
+          "url": "/clients/masi/home/signature.jpg",
+          "alt": {
+            "en": "A hand wearing a fine MASI gold bracelet and ring",
+            "ar": "يد ترتدي سوار وخاتم من ماسي"
+          }
+        },
+        "imagePosition": "start",
+        "source": "manual",
+        "productIds": [
+          "ms1",
+          "ms5",
+          "ms6",
+          "ms7"
+        ],
+        "limit": 4
+      }
+    },
+    {
+      "id": "ms-visit",
+      "type": "locations",
+      "isActive": true,
+      "sortOrder": 4,
+      "data": {
+        "eyebrow": {
+          "en": "The Maisons",
+          "ar": "معارضنا"
+        },
+        "title": {
+          "en": "Visit us *in Cairo*",
+          "ar": "زورونا *في القاهرة*"
+        },
+        "image": {
+          "url": "/clients/masi/home/store.jpg"
+        },
+        "height": "md",
+        "overlay": 20,
+        "items": [
+          {
+            "title": {
+              "en": "Heliopolis",
+              "ar": "مصر الجديدة"
+            },
+            "text": {
+              "en": "Our showroom since 1977 — home of the IGI Trophy.",
+              "ar": "معرضنا منذ 1977 — موطن جائزة IGI."
+            },
+            "link": {
+              "label": {
+                "en": "View on map",
+                "ar": "على الخريطة"
+              },
+              "href": "https://maps.google.com/?q=Heliopolis+Cairo"
+            }
+          },
+          {
+            "title": {
+              "en": "New Cairo",
+              "ar": "القاهرة الجديدة"
+            },
+            "text": {
+              "en": "A new chapter of timeless luxury, opening 2026.",
+              "ar": "فصل جديد من الفخامة، يفتتح في 2026."
+            },
+            "link": {
+              "label": {
+                "en": "View on map",
+                "ar": "على الخريطة"
+              },
+              "href": "https://maps.google.com/?q=New+Cairo"
+            }
+          },
+          {
+            "title": {
+              "en": "Private Appointments",
+              "ar": "مواعيد خاصة"
+            },
+            "text": {
+              "en": "A quiet hour with our jewellers, in store or at home.",
+              "ar": "ساعة هادئة مع صاغتنا، في المعرض أو في بيتك."
+            },
+            "link": {
+              "label": {
+                "en": "All stores",
+                "ar": "كل الفروع"
+              },
+              "href": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ms-gesture",
+      "type": "social_feed",
+      "isActive": true,
+      "sortOrder": 5,
+      "data": {
+        "title": {
+          "en": "A First Gesture",
+          "ar": "لفتة أولى"
+        },
+        "look": "gallery",
+        "subtitle": {
+          "en": "Join our community and enjoy 10% off your first order. Be the first to discover new collections, exclusive releases, and the stories behind every piece crafted to be worn, collected, and passed on.",
+          "ar": "انضموا إلينا واحصلوا على خصم 10% على أول طلب. كونوا أول من يكتشف المجموعات الجديدة والإصدارات الحصرية وحكايات كل قطعة."
+        },
+        "handle": "",
+        "profileUrl": "https://www.instagram.com/",
+        "items": [
+          {
+            "image": {
+              "url": "/clients/masi/home/gesture-1.jpg"
+            }
+          },
+          {
+            "image": {
+              "url": "/clients/masi/home/gesture-2.jpg"
+            }
+          },
+          {
+            "image": {
+              "url": "/clients/masi/home/gesture-3.jpg"
+            }
+          },
+          {
+            "image": {
+              "url": "/clients/masi/home/gesture-4.jpg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ms-story",
+      "type": "image_text",
+      "isActive": true,
+      "sortOrder": 6,
+      "data": {
+        "layout": "editorial",
+        "imagePosition": "start",
+        "eyebrow": {
+          "en": "Our Story · Since 1963",
+          "ar": "حكايتنا · منذ 1963"
+        },
+        "title": {
+          "en": "More than jewellery. *A story passed through generations.*",
+          "ar": "أكثر من مجوهرات. *حكاية تتوارثها الأجيال.*"
+        },
+        "body": {
+          "en": "<p>Founded in 1963 by the Erian family in El Sagha, Cairo — grown into Heliopolis, and now a new chapter as MASI.</p>",
+          "ar": "<p>تأسست عام 1963 على يد عائلة عريان في الصاغة بالقاهرة — ثم مصر الجديدة، والآن فصل جديد باسم ماسي.</p>"
+        },
+        "image": {
+          "url": "/clients/masi/home/story.jpg",
+          "alt": {
+            "en": "From the MASI family archive: inside the original store",
+            "ar": "من أرشيف عائلة ماسي: داخل المعرض الأصلي"
+          }
+        },
+        "cta": {
+          "label": {
+            "en": "Read the story",
+            "ar": "اقرأ الحكاية"
+          },
+          "href": "/about"
+        }
+      }
+    }
+  ]
+}

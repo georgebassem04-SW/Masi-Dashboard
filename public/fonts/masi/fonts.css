@@ -1,0 +1,15 @@
+/*
+ * MASI's own fonts, for the dashboard's preview only (the website loads them through storefront/lib/fonts.ts).
+ * Helvetica Now Display (text) and ABC Arizona Flare (headings, the italic words).
+ * LICENCE: both are paid fonts — the client needs a web licence before the website goes live
+ * (Arizona Flare here is the "Unlicensed Trial" file).
+ */
+@font-face { font-family: "Helvetica Now Display"; src: url("./HelveticaNowDisplay-Light.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Helvetica Now Display"; src: url("./HelveticaNowDisplay-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Helvetica Now Display"; src: url("./HelveticaNowDisplay-RegIta.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Helvetica Now Display"; src: url("./HelveticaNowDisplay-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Helvetica Now Display"; src: url("./HelveticaNowDisplay-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "ABC Arizona Flare"; src: url("./ArizonaFlare-Light.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "ABC Arizona Flare"; src: url("./ArizonaFlare-LightItalic.woff2") format("woff2"); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: "ABC Arizona Flare"; src: url("./ArizonaFlare-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "ABC Arizona Flare"; src: url("./ArizonaFlare-Italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }

@@ -1,0 +1,20 @@
+[
+  {
+    "karat": 24,
+    "pricePerGram": 7011,
+    "currency": "EGP",
+    "updatedAt": "2026-09-25T09:00:00Z"
+  },
+  {
+    "karat": 21,
+    "pricePerGram": 6135,
+    "currency": "EGP",
+    "updatedAt": "2026-09-25T09:00:00Z"
+  },
+  {
+    "karat": 18,
+    "pricePerGram": 5258,
+    "currency": "EGP",
+    "updatedAt": "2026-09-25T09:00:00Z"
+  }
+]

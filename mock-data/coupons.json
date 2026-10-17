@@ -1,0 +1,76 @@
+[
+  {
+    "code": "WELCOME10",
+    "type": "percent",
+    "value": 10,
+    "appliesTo": "making_charge",
+    "minSubtotal": 0,
+    "label": {
+      "ar": "خصم ١٠٪ على المصنعية",
+      "en": "10% off making charges"
+    },
+    "isActive": true
+  },
+  {
+    "code": "GOLD500",
+    "type": "amount",
+    "value": 500,
+    "appliesTo": "subtotal",
+    "minSubtotal": 15000,
+    "label": {
+      "ar": "خصم ٥٠٠ ج.م على الطلبات فوق ١٥٬٠٠٠",
+      "en": "500 EGP off orders over 15,000"
+    },
+    "isActive": true
+  },
+  {
+    "code": "FREESHIP",
+    "type": "free_shipping",
+    "value": 0,
+    "appliesTo": "subtotal",
+    "minSubtotal": 5000,
+    "label": {
+      "ar": "شحن مجاني للطلبات فوق ٥٬٠٠٠",
+      "en": "Free delivery on orders over 5,000"
+    },
+    "isActive": true
+  },
+  {
+    "code": "RAMADAN",
+    "type": "percent",
+    "value": 15,
+    "appliesTo": "making_charge",
+    "minSubtotal": 0,
+    "label": {
+      "ar": "خصم ١٥٪ على المصنعية",
+      "en": "15% off making charges"
+    },
+    "isActive": true,
+    "endsAt": "2026-04-01T00:00:00Z",
+    "usageLimit": 200
+  },
+  {
+    "code": "EID15",
+    "type": "percent",
+    "value": 15,
+    "appliesTo": "making_charge",
+    "minSubtotal": 0,
+    "label": {
+      "ar": "خصم ١٥٪ على المصنعية بمناسبة العيد",
+      "en": "15% off making charges for Eid"
+    },
+    "isActive": false
+  },
+  {
+    "code": "GOLD5",
+    "type": "percent",
+    "value": 5,
+    "appliesTo": "making_charge",
+    "minSubtotal": 0,
+    "label": {
+      "ar": "خصم ٥٪ على المصنعية",
+      "en": "5% off making charges"
+    },
+    "isActive": true
+  }
+]

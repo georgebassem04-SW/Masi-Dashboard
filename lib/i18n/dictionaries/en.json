@@ -1,0 +1,2937 @@
+{
+  "app": {
+    "title": "Store dashboard",
+    "switchLanguage": "العربية",
+    "logout": "Log out",
+    "menu": "Menu",
+    "close": "Close",
+    "search": "Search",
+    "searchPlaceholder": "Search orders, products or customers",
+    "notifications": "Notifications",
+    "viewStore": "View store"
+  },
+  "navGroups": {
+    "sales": "Sales",
+    "catalog": "Catalog",
+    "content": "Content",
+    "site": "Website"
+  },
+  "nav": {
+    "overview": "Overview",
+    "orders": "Orders",
+    "customers": "Customers",
+    "inbox": "Contact messages",
+    "custom": "Customization requests",
+    "reports": "Reports",
+    "products": "Products",
+    "categories": "Categories",
+    "pages": "Site pages",
+    "media": "Media library",
+    "theme": "Theme & design",
+    "header": "Header (top bar)",
+    "footer": "Footer",
+    "filters": "Product filter",
+    "homeBuilder": "Homepage",
+    "pricing": "Gold prices & coupons",
+    "checkout": "Shipping & payment",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "collections": "Collections",
+    "productPage": "Product page"
+  },
+  "roles": {
+    "owner": "Owner",
+    "manager": "Store manager",
+    "orders": "Orders staff",
+    "content": "Content editor",
+    "viewer": "View only",
+    "designer": "Website designer"
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Log in to manage orders, products and website content.",
+    "email": "Email",
+    "password": "Password",
+    "show": "Show",
+    "hide": "Hide",
+    "forgot": "Forgot password?",
+    "submit": "Log in",
+    "submitting": "Logging in…",
+    "wrong": "Wrong email or password.",
+    "tooMany": "Too many attempts. Wait a minute and try again.",
+    "error": "Something went wrong. Please try again.",
+    "emailInvalid": "Enter a valid email",
+    "passwordRequired": "Enter your password",
+    "staffNote": "Staff accounts are created from Settings → Staff & roles.",
+    "demoHint": "Demo login: owner@demo.store / Demo@12345",
+    "sideTitle": "Everything in the store is managed from here."
+  },
+  "forgot": {
+    "title": "Forgot your password?",
+    "subtitle": "Enter your email and we'll send you a link to set a new password.",
+    "submit": "Send link",
+    "sentTitle": "Check your email",
+    "sentText": "If this email is registered you'll receive a link in a few minutes. The link works for one hour.",
+    "back": "Back to login"
+  },
+  "overview": {
+    "greeting": "Hello {name}",
+    "salesToday": "Sales today",
+    "vsYesterday": "{pct}% vs yesterday",
+    "newOrders": "New orders",
+    "awaiting": "{count} awaiting confirmation",
+    "unread": "Unread messages",
+    "fromContact": "From the contact page",
+    "lowStock": "Products running low",
+    "fromErp": "Stock comes from the ERP",
+    "recentOrders": "Latest orders",
+    "allOrders": "View all orders",
+    "goldToday": "Gold prices today",
+    "karat": "{karat}K",
+    "perGram": "per gram",
+    "updated": "Updated {time}",
+    "managePrices": "Manage prices",
+    "quickActions": "Quick actions",
+    "addProduct": "Add product",
+    "editHome": "Edit homepage",
+    "newCoupon": "Create a coupon",
+    "noOrders": "No orders yet. When a customer orders from the website it shows up here.",
+    "sample": "Test mode — data saved on this computer"
+  },
+  "table": {
+    "orderNo": "Order no.",
+    "customer": "Customer",
+    "date": "Date",
+    "total": "Total",
+    "status": "Status"
+  },
+  "status": {
+    "pending": "New",
+    "confirmed": "Confirmed",
+    "processing": "Processing",
+    "ready_for_pickup": "Ready for pickup",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "returned": "Returned"
+  },
+  "placeholder": {
+    "title": "This section is under development",
+    "text": "The screen is designed in the clickable prototype and will be built in the next steps.",
+    "back": "Back to overview"
+  },
+  "noAccess": {
+    "title": "You don't have access to this page",
+    "text": "Ask the store manager to add the permission from Settings → Staff.",
+    "back": "Back to overview"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back to overview"
+  },
+  "theme": {
+    "subtitle": "Everything about how the website looks: brand, colours, fonts, layout and texts.",
+    "tabs": {
+      "brand": "Brand & logo",
+      "colors": "Colours",
+      "typography": "Fonts & text",
+      "layout": "Shape & layout",
+      "texts": "Website texts",
+      "dark": "Dark mode"
+    },
+    "status": {
+      "live": "Live on the website",
+      "never": "Default settings",
+      "publishedAt": "Published {time} by {by}",
+      "draftSaved": "Draft saved {time} — not published",
+      "unsaved": "Unsaved changes",
+      "upToDate": "No changes"
+    },
+    "actions": {
+      "save": "Save draft",
+      "saving": "Saving…",
+      "publish": "Publish to website",
+      "publishing": "Publishing…",
+      "discard": "Discard draft",
+      "reset": "Reset to default",
+      "resetConfirm": "Confirm reset",
+      "viewSite": "Open website"
+    },
+    "messages": {
+      "saved": "Draft saved. It won't show on the website until you press “Publish”.",
+      "published": "Published. The new design is live on the website.",
+      "discarded": "Draft discarded — back to the published version.",
+      "error": "Couldn't save. Check the highlighted fields and try again.",
+      "leave": "You have unsaved changes."
+    },
+    "brand": {
+      "name": "Store name",
+      "tagline": "Short description (footer and Google results)",
+      "logo": "Logo",
+      "logoHint": "PNG with a transparent background, at least 64px tall. After choosing a picture you pick the part that fills the frame (square or wide).",
+      "logoOnDark": "Logo for dark backgrounds (footer)",
+      "logoOnDarkHint": "Leave empty to use the same logo.",
+      "favicon": "Browser tab icon",
+      "faviconHint": "Square image, 64×64 or larger. Shows on the browser tab. Empty = the logo.",
+      "shareImage": "Share image",
+      "shareImageHint": "Shown when the site link is shared on WhatsApp and social media. Best size 1200×630.",
+      "arabic": "Arabic",
+      "english": "English"
+    },
+    "colors": {
+      "presets": "Start from a ready palette",
+      "groups": {
+        "main": "Main colour",
+        "page": "Page & text",
+        "soft": "Soft areas",
+        "header": "Top bar",
+        "footer": "Footer",
+        "status": "Alerts"
+      },
+      "names": {
+        "primary": "Main colour (buttons, prices)",
+        "primaryForeground": "Text on buttons",
+        "accent": "Accent (hover)",
+        "background": "Page background",
+        "foreground": "Main text",
+        "card": "Card background",
+        "muted": "Image & light box background",
+        "mutedForeground": "Grey secondary text",
+        "border": "Lines & borders",
+        "secondary": "Soft strip background",
+        "secondaryForeground": "Text on it",
+        "headerBackground": "Top bar background",
+        "headerForeground": "Top bar text & icons",
+        "footerBackground": "Footer background",
+        "footerForeground": "Footer text",
+        "danger": "Errors & “out of stock”"
+      },
+      "contrastLow": "Low contrast {ratio}:1 — may be hard to read",
+      "contrastOk": "Good contrast {ratio}:1"
+    },
+    "typography": {
+      "arabicFont": "Arabic body font",
+      "arabicHeadingFont": "Arabic headings font",
+      "latinFont": "English body font",
+      "latinHeadingFont": "English headings font",
+      "baseSize": "Base text size",
+      "baseSizeHint": "Every size on the site scales with it.",
+      "headingWeight": "Heading weight",
+      "weights": {
+        "400": "Regular",
+        "500": "Medium",
+        "600": "Semi-bold",
+        "700": "Bold",
+        "800": "Extra bold"
+      },
+      "lineHeight": "Line spacing",
+      "letterSpacing": "English heading letter spacing",
+      "sample": "Fine gold & jewelry with unique designs"
+    },
+    "layout": {
+      "containerWidth": "Content width",
+      "radius": "Corner roundness",
+      "radiusHint": "0 = sharp corners, 24 = very round",
+      "stickyHeader": "Keep the top bar visible while scrolling",
+      "productCard": "Product card",
+      "cardDetailed": "Detailed (karat & weight)",
+      "cardMinimal": "Minimal (name & price)",
+      "imageRatio": "Product image shape",
+      "square": "Square",
+      "portrait": "Portrait",
+      "gridColumns": "Products per row (desktop)",
+      "breadcrumbs": "Show the page path (Home / Categories / Rings)",
+      "breadcrumbsHint": "The small line at the top of category, product and other pages. Switch it off to hide it on the whole website.",
+      "card": {
+        "title": "Product cards",
+        "align": "Name and price",
+        "aligns": {
+          "start": "At the start",
+          "center": "Centred"
+        },
+        "nameSize": "Name size",
+        "sizes": {
+          "sm": "Small",
+          "md": "Medium",
+          "lg": "Large"
+        },
+        "soldOut": "Sold-out pieces",
+        "soldOuts": {
+          "badge": "Small label in the corner",
+          "overlay": "Shade over the picture with \"Sold out\""
+        },
+        "hoverImage": "Show the second picture when the mouse is over it",
+        "fromPrice": "Write \"From\" when sizes have different prices",
+        "newBadge": "Show the \"New\" label",
+        "frame": "Thin line around the picture",
+        "imageBackground": "Behind the pictures",
+        "hoverButton": "Button on the picture on mouse-over",
+        "hoverButtonText": "Its text (empty = Choose option)",
+        "priceSize": "Price size",
+        "priceSymbol": "Own currency sign",
+        "priceSymbolHint": "e.g. LE in English and ج.م in Arabic. Empty = the normal one (EGP).",
+        "priceDecimals": "Show piastres (96,065.00)",
+        "so": {
+          "title": "Sold out look",
+          "presets": {
+            "classic": "Classic",
+            "light": "Light",
+            "dark": "Dark",
+            "minimal": "Minimal",
+            "ribbon": "Red tag"
+          },
+          "sample": "Sold out",
+          "shade": "Shade colour",
+          "strength": "Shade strength",
+          "grayscale": "Black & white picture",
+          "labelBackground": "Label colour",
+          "labelText": "Words colour",
+          "label": "Own words (empty = Sold out)",
+          "shape": "Label shape",
+          "shapes": {
+            "square": "Square",
+            "rounded": "Soft corners",
+            "pill": "Round"
+          },
+          "position": "Label place",
+          "positions": {
+            "top": "Top",
+            "center": "Middle",
+            "bottom": "Bottom"
+          },
+          "size": "Label size",
+          "border": "Thin line around the label"
+        },
+        "imageDots": "Dots under the picture (one per photo)",
+        "badgeLook": "“New” label look",
+        "badgeLooks": {
+          "pill": "Small pill",
+          "box": "Small white box, spaced capitals"
+        },
+        "blendImage": "Blend white photos into the background",
+        "blendImageHint": "Photos taken on white melt into the colour behind the pictures.",
+        "priceColor": "Price colour",
+        "priceColors": {
+          "primary": "Main colour",
+          "muted": "Soft grey (quiet look)"
+        }
+      }
+    },
+    "texts": {
+      "intro": "Change any fixed text on the website. Leave a field empty to use the original text.",
+      "language": "Texts language",
+      "group": "Section",
+      "all": "All sections",
+      "search": "Search texts…",
+      "changed": "{count} texts changed",
+      "onlyChanged": "Changed only",
+      "reset": "Reset",
+      "empty": "No matching texts.",
+      "keepPlaceholders": "Keep words in braces like {karat} as they are — they are filled in automatically."
+    },
+    "media": {
+      "choose": "Choose from library",
+      "change": "Change",
+      "remove": "Remove",
+      "or": "or paste a link",
+      "none": "No image"
+    },
+    "preview": {
+      "title": "Live preview",
+      "hint": "How the website will look after publishing",
+      "language": "Preview language",
+      "heroTitle": "Autumn collection",
+      "heroText": "New 21K and 18K gold designs",
+      "section": "New arrivals",
+      "product": "Gold ring",
+      "noAccess": "View only — editing is for the website designer or owner."
+    },
+    "cropper": {
+      "adjust": "Crop & adjust",
+      "title": "Choose what shows from the logo",
+      "hint": "Move and zoom the picture until the part you want is inside the frame — like a WhatsApp profile picture.",
+      "shape": "Frame shape",
+      "shapes": {
+        "square": "Square",
+        "wide": "Wide"
+      },
+      "shapeHints": {
+        "square": "Icon only — the store name is written next to it on the website.",
+        "wide": "Logo that contains the store name — the written name is hidden and the logo shows alone."
+      },
+      "zoom": "Zoom",
+      "fit": "Fit whole picture",
+      "fill": "Fill the frame",
+      "preview": "How it will look at the top of the website",
+      "save": "Save",
+      "saving": "Saving…",
+      "cancel": "Cancel",
+      "useAsIs": "Use without cropping",
+      "loadError": "Couldn't open the picture. Upload it to the media library, then choose it from there.",
+      "saveError": "Couldn't save the picture. If it's from another website, upload it to the media library first."
+    },
+    "chrome": {
+      "preview": "Live preview (a sketch)",
+      "width": "Width",
+      "widths": {
+        "boxed": "Same as the page content",
+        "full": "Full screen width"
+      },
+      "sizes": {
+        "sm": "Small",
+        "md": "Medium",
+        "lg": "Large"
+      },
+      "aligns": {
+        "start": "Left (right in Arabic)",
+        "center": "Center",
+        "end": "Right (left in Arabic)"
+      },
+      "chooseColor": "choose my own colour",
+      "background": "Background colour",
+      "textColor": "Text colour",
+      "extraLinks": "Extra links",
+      "links": {
+        "add": "Add link",
+        "remove": "Remove link",
+        "up": "Move up",
+        "down": "Move down",
+        "text": "Text",
+        "href": "Link",
+        "hrefHint": "e.g. /products, /pages/about, a full https://… address, or tel:+2010… — a link shows once its text (both languages) and address are filled.",
+        "empty": "No extra links."
+      },
+      "reset": {
+        "header": "Reset the header to the original",
+        "footer": "Reset the footer to the original",
+        "filters": "Reset the filter to the original",
+        "productPage": "Reset the product page to the original"
+      },
+      "sample": {
+        "home": "Home",
+        "products": "Products",
+        "categories": "Categories",
+        "about": "About",
+        "contact": "Contact us",
+        "faq": "FAQ",
+        "terms": "Terms",
+        "quickLinks": "Quick links",
+        "contactTitle": "Contact",
+        "followUs": "Follow us",
+        "powered": "Powered by …",
+        "backToTop": "Back to top",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp",
+        "email": "Email",
+        "address": "Cairo, Egypt",
+        "hours": "Daily 11 AM – 10 PM",
+        "picture": "Slider picture"
+      },
+      "moved": "The logo, the header and footer colours and everything about them are edited only in their own pages:",
+      "goHeader": "Header",
+      "goFooter": "Footer"
+    },
+    "header": {
+      "subtitle": "Everything about the bar at the top of the website: arrangement, logo, colours, menu links, icons and the announcement strip. Changes are a draft until you press “Publish”.",
+      "groups": {
+        "layout": "Arrangement & shape",
+        "logo": "Logo",
+        "colors": "Colours",
+        "menu": "Menu links",
+        "menuStyle": "Menu style",
+        "icons": "Icons",
+        "announcement": "Announcement strip"
+      },
+      "layout": "Header arrangement",
+      "layouts": {
+        "logo-start": "Logo at the start",
+        "logo-center": "Logo in the middle",
+        "stacked": "Menu on a second row"
+      },
+      "layoutHints": {
+        "logo-start": "Logo, then the menu, then the icons (the usual one).",
+        "logo-center": "Menu on one side, logo in the middle, icons on the other side.",
+        "stacked": "Logo and icons on the first row, the menu on a row under them."
+      },
+      "menuAlign": "Menu position",
+      "height": "Header height",
+      "heights": {
+        "compact": "Short",
+        "normal": "Normal",
+        "tall": "Tall"
+      },
+      "sticky": "Stays at the top while scrolling",
+      "border": "Thin line under the header",
+      "shadow": "Soft shadow under the header",
+      "logoSize": "Logo size",
+      "showName": "Store name next to the logo",
+      "showNames": {
+        "auto": "Automatic",
+        "show": "Show",
+        "hide": "Hide"
+      },
+      "showNameHint": "“Automatic”: the written name is hidden only when the logo is wide (already contains the name).",
+      "hoverColor": "Link colour on hover",
+      "hoverAuto": "No special colour: the link fades a little on hover.",
+      "menuHint": "On phones the same links appear inside the ☰ menu button.",
+      "links": {
+        "home": "Home",
+        "products": "Products",
+        "categories": "Categories",
+        "pages": "Pages added to the top menu (from Site pages)"
+      },
+      "menuSize": "Text size",
+      "menuWeight": "Text weight",
+      "weights": {
+        "normal": "Normal",
+        "bold": "Bold"
+      },
+      "menuUppercase": "English in CAPITALS",
+      "icons": {
+        "search": "Search",
+        "account": "Customer account",
+        "cart": "Cart",
+        "language": "Language switch"
+      },
+      "iconSize": "Icon size",
+      "announcementHint": "A small strip above the header, e.g. “Free delivery this week”.",
+      "announcementOn": "Show the announcement strip",
+      "announcementText": "Announcement text",
+      "announcementLink": "Link when clicked (optional)",
+      "iconThemes": "Ready-made icon set",
+      "iconThemeNames": {
+        "solid": "Filled (original)",
+        "line": "Thin lines",
+        "soft": "Soft"
+      },
+      "iconThemesHint": "Click a set to change every icon at once, or choose each icon yourself from the library below.",
+      "menuIcon": "Menu button (on phones)",
+      "transparent": "See-through header over the first picture",
+      "transparentHint": "The header sits on top of the homepage slider (or a page's title banner when it has a picture) with no colour. After scrolling down, and on other pages, it goes back to its normal colour.",
+      "transparentOpacity": "How much header colour over the picture",
+      "transparentOpacityHint": "0% = fully see-through. Raise it to blend the header colour with the picture.",
+      "transparentBlur": "Blur the picture behind the header (frosted glass)",
+      "transparentText": "Text and icon colour while see-through",
+      "activeStyle": "Open page's link",
+      "activeStyles": {
+        "none": "Same as the others",
+        "color": "Coloured text",
+        "underline": "Line under it",
+        "bold": "Bold",
+        "pill": "Filled shape"
+      },
+      "activeHint": "How the link of the page the visitor is on looks, e.g. “Products” while browsing products. In the sketch above, the second link shows it.",
+      "activeColor": "Open page colour",
+      "activeAuto": "Automatic: the hover colour if you chose one, otherwise the header text colour.",
+      "activeTextColor": "Text colour on the shape",
+      "activeTextAuto": "Automatic: white or dark, whichever is easier to read on the shape.",
+      "menuPages": {
+        "title": "Which pages show in the menu?",
+        "auto": "Automatic",
+        "chosen": "Only the ones I choose",
+        "autoHint": "The pages set to “Top menu” in Site pages:",
+        "autoNone": "none yet.",
+        "none": "No page chosen yet — add one below.",
+        "add": "Add a page",
+        "up": "Move up",
+        "down": "Move down",
+        "remove": "Remove",
+        "notLive": "not published yet",
+        "chosenHint": "A page that isn't published doesn't show until it is. Set the order of all links in “Arrangement of the menu” below."
+      },
+      "menuOrder": {
+        "title": "Arrangement of the menu",
+        "hint": "The links in the order they show on the website (number 1 comes first). Use the arrows to move a link earlier or later.",
+        "earlier": "Move earlier",
+        "later": "Move later",
+        "reset": "Original order"
+      },
+      "dd": {
+        "categoriesLabel": "Own name for \"Categories\" (e.g. Shop)",
+        "categoriesDropdown": "Open a drop-down list of the categories",
+        "pagesDropdown": "Put the pages under one drop-down",
+        "pagesLabel": "Name of the drop-down (e.g. About)",
+        "iconDisplay": "Show as",
+        "iconDisplays": {
+          "icons": "Icons",
+          "text": "Words (Search · Log in · Cart)"
+        },
+        "announcementAlign": "Words position",
+        "phoneIcon": "Phone icon before the words",
+        "whichCategories": "Categories in the drop-down",
+        "whichCategoriesHint": "They show in the order you tick them. None ticked = all main categories.",
+        "shopAll": "Last line: all products",
+        "shopAllLabel": "Its name (e.g. Shop All)",
+        "lookTitle": "Drop-down look",
+        "lookHint": "How the lists under the menu look (e.g. \"Shop ▾\", \"About ▾\").",
+        "textSize": "Text size",
+        "spacing": "Space between lines",
+        "spacings": {
+          "compact": "Tight",
+          "normal": "Normal",
+          "roomy": "Roomy"
+        },
+        "border": "Thin line around the list",
+        "shadow": "Soft shadow"
+      },
+      "words": {
+        "search": "Search",
+        "login": "Log in",
+        "cart": "Cart"
+      },
+      "pos": {
+        "title": "Positions",
+        "hint": "Place every part of the header where you want it on computers: in the top strip, the main row or the bottom row, at the start, in the centre or at the end. Phones keep a simple header.",
+        "enabled": "Place the parts freely",
+        "parts": {
+          "logo": "Logo",
+          "menu": "Menu links",
+          "search": "Search",
+          "account": "Log in / account",
+          "cart": "Cart",
+          "language": "Language",
+          "text": "Strip text (phone…)",
+          "drawer": "☰ Side menu button (computers too)"
+        },
+        "row": "Row",
+        "rows": {
+          "top": "Top strip",
+          "main": "Main row",
+          "bottom": "Bottom row"
+        },
+        "zone": "Area",
+        "orderHint": "↑ ↓ change the order of parts that share the same row and area. Untick a part to hide it.",
+        "topHeight": "Top strip height",
+        "bottomHeight": "Bottom row height",
+        "rowLines": "Thin line between rows",
+        "textHint": "The strip text, its link, phone icon and colours are set in \"Announcement\" below.",
+        "layoutOff": "Positions are on, so the arrangement and menu position here don't apply on computers. Height, width, line and shadow still do."
+      },
+      "searchBar": {
+        "title": "Search bar",
+        "hint": "The bar that opens when the magnifier in the header is clicked.",
+        "presets": "Ready-made looks",
+        "presetNames": {
+          "simple": "Simple",
+          "boxed": "Framed (word on hover)",
+          "boxedText": "Framed + word",
+          "outline": "Framed, no ✕"
+        },
+        "look": "Look",
+        "looks": {
+          "simple": "Simple rounded field",
+          "boxed": "Framed field + button"
+        },
+        "width": "Width",
+        "widths": {
+          "narrow": "Medium, centred",
+          "full": "Full width"
+        },
+        "words": "Words in the field",
+        "wordsHint": "Leave empty for the default (\"Search products…\").",
+        "defaultWords": "Search products…",
+        "floatingLabel": "Words as a small title on top of the field",
+        "buttonText": "Word on the search button",
+        "buttonTextHint": "Leave empty to show the magnifier only.",
+        "buttonTextOn": "When the word shows",
+        "textOn": {
+          "always": "Always",
+          "hover": "Only when the mouse is on the button"
+        },
+        "closeButton": "Show the ✕ close button",
+        "fieldBackground": "Field background",
+        "fieldBorder": "Field frame",
+        "labelColor": "Title colour",
+        "buttonColor": "Button colour",
+        "buttonTextColor": "Button text",
+        "buttonHoverColor": "Button colour on hover",
+        "buttonHoverTextColor": "Button text on hover",
+        "closeColor": "✕ button colour",
+        "autoHint": "Automatic colours follow the site colours: frame and button = main colour, button on hover = accent colour. In the sketch, the second button shows the hover look."
+      },
+      "transparentLogo": "Light logo over the picture",
+      "transparentLogoHint": "Uses the “Logo on dark backgrounds” from Theme & design → Brand. After scrolling the normal logo comes back.",
+      "transparentGradient": "Soft dark shade at the top of the picture"
+    },
+    "footer": {
+      "subtitle": "Everything about the bottom of the website: arrangement, parts and their order, logo, colours, links, contact details and the last line. Changes are a draft until you press “Publish”.",
+      "groups": {
+        "layout": "Arrangement & shape",
+        "parts": "Parts & order",
+        "brand": "Logo and name",
+        "colors": "Colours",
+        "links": "Links",
+        "contact": "Contact details",
+        "social": "Social icons",
+        "bottom": "Last line"
+      },
+      "layout": "Footer arrangement",
+      "layouts": {
+        "columns": "Columns side by side",
+        "centered": "Everything in the middle"
+      },
+      "align": "Text position inside the columns",
+      "spacing": "Spacing",
+      "spacings": {
+        "compact": "Compact",
+        "normal": "Normal",
+        "spacious": "Spacious"
+      },
+      "borderTop": "Thin line above the footer",
+      "partsHint": "Switch on what you want to show, and order it with the arrows (the first one shows first).",
+      "parts": {
+        "about": "Logo, name and tagline",
+        "links": "Quick links",
+        "contact": "Contact details",
+        "social": "Social media",
+        "groups": "Own columns"
+      },
+      "showLogo": "Show the logo",
+      "logoSize": "Logo size",
+      "showName": "Show the store name",
+      "showTagline": "Show the tagline",
+      "headingColor": "Column titles colour",
+      "bottomBackground": "Last line background",
+      "linksHint": "Shown in the “Quick links” part.",
+      "links": {
+        "home": "Home",
+        "products": "Products",
+        "contact": "Contact us",
+        "pages": "Pages added to the footer (from Site pages)"
+      },
+      "contactHint": "Choose what shows. The details themselves are edited in",
+      "storeDetails": "Settings → Store details",
+      "contact": {
+        "phone": "Phone",
+        "whatsapp": "WhatsApp",
+        "email": "Email",
+        "address": "Address",
+        "hours": "Opening hours"
+      },
+      "socialHint": "Only networks that have a link in Store details are shown.",
+      "socialStyle": "Icon style",
+      "socialStyles": {
+        "circle": "Inside a circle",
+        "plain": "No frame"
+      },
+      "bottomShow": "Show the copyright line",
+      "bottomText": "Copyright text",
+      "bottomTextHint": "Leave empty for the automatic “© year store name”. You can write {year} for the year and {store} for the store name.",
+      "poweredBy": "Show “Powered by …”",
+      "bottomAlign": "Line position",
+      "bottomAligns": {
+        "start": "At the start",
+        "center": "Center",
+        "between": "Spread to both sides"
+      },
+      "backToTop": "“Back to top” button",
+      "transparent": "Transparent footer (no background colour)",
+      "transparentHint": "The page background shows instead of the footer colour. Choose a text colour that is readable on the page background.",
+      "contactDisplay": "How contact details show",
+      "contactDisplays": {
+        "details": "Text only",
+        "icons": "Icons only",
+        "both": "Icon + text"
+      },
+      "contactDisplayHints": {
+        "details": "Each detail on a written line (Phone: …).",
+        "icons": "Icon buttons only; clicking calls, or opens WhatsApp / email / the map.",
+        "both": "A small icon next to each detail."
+      },
+      "contactDirection": "Arrangement",
+      "contactDirections": {
+        "column": "Under each other",
+        "row": "Side by side in a row"
+      },
+      "contactAlign": "Position of the contact details",
+      "contactIconStyle": "Icon style",
+      "taglineHint": "The tagline text itself is edited in",
+      "taglineLink": "Theme & design → Brand",
+      "x": {
+        "headingSize": "Column title size",
+        "groupsTitle": "Own columns",
+        "groupsHint": "Columns you build yourself: a title with links and/or a short text (e.g. Working hours). Turn on \"Own columns\" in Parts & order to show them.",
+        "column": "Column",
+        "removeColumn": "Remove",
+        "addColumn": "Add a column",
+        "columnTitle": "Title",
+        "columnLinks": "Links",
+        "columnText": "Short text (optional)",
+        "contactUnderAbout": "Show them under the logo (no own column)",
+        "square": "Soft square",
+        "socialPlacement": "Where",
+        "socialPlacements": {
+          "column": "In their own column",
+          "row": "Centred row above the last line",
+          "top": "In a row at the very top (with the newsletter)"
+        },
+        "bottomLinks": "Small links after the copyright",
+        "topTitle": "Top of the footer",
+        "topHint": "A newsletter box and a thin picture (e.g. a gold chain) above the columns.",
+        "newsletter": "Newsletter sign-up box",
+        "newsletterPlaceholder": "Words in the box",
+        "newsletterButton": "Button",
+        "newsletterThanks": "Thank-you line",
+        "newsletterHint": "Empty = the default words. Sending the addresses to a mailing list is added with the backend.",
+        "divider": "Divider picture",
+        "dividerHint": "Optional. White parts of the picture blend into the footer colour.",
+        "headingStyle": "Column titles",
+        "headingStyles": {
+          "classic": "Heading font",
+          "caps": "Small spaced capitals"
+        },
+        "bottomText": "Text colour",
+        "bottomMark": "Small oval mark in the middle",
+        "bottomEnd": "Words at the end",
+        "bottomEndHint": "E.g. EST · *Cairo* · 26 — *stars* = italic words. With the mark or these words the line has three parts."
+      }
+    },
+    "filters": {
+      "subtitle": "The filter column of the product pages on the website: which sections show, their order, and which categories are listed. Changes are a draft until you press “Publish”.",
+      "sectionsTitle": "Filter sections",
+      "sectionsHint": "Switch a section off to hide it, and use the arrows to change the order.",
+      "sectionNames": {
+        "category": "Category",
+        "offers": "Special offers",
+        "price": "Price",
+        "karat": "Karat",
+        "metal": "Metal",
+        "weight": "Weight",
+        "collection": "Collection",
+        "stock": "In stock only"
+      },
+      "sectionHints": {
+        "offers": "Shows by itself only while a special offer is running (Gold prices & coupons → Special offer).",
+        "karat": "Shows when the shop has more than one karat.",
+        "metal": "Shows when the shop has more than one metal.",
+        "collection": "Shows when there are collections."
+      },
+      "up": "Move up",
+      "down": "Move down",
+      "remove": "Remove",
+      "categoriesTitle": "Categories in the filter",
+      "categoriesHint": "To create, rename or delete a category itself, use the Categories page.",
+      "categoriesMode": "Which categories are listed?",
+      "modes": {
+        "all": "All main categories",
+        "chosen": "Only the ones I choose"
+      },
+      "noneChosen": "Nothing added yet — all main categories show until you add one.",
+      "add": "Add a category",
+      "hiddenCategory": "hidden on the website",
+      "preview": "How the customer sees it",
+      "empty": "All sections are off — the filter column will be empty.",
+      "place": {
+        "title": "Where & how it shows",
+        "hint": "On computers. Phones always get a \"Filter\" button that opens a panel from the bottom.",
+        "display": "How it shows",
+        "displays": {
+          "sidebar": "Always open, in a column",
+          "drawer": "A \"Filter\" button that opens a panel"
+        },
+        "sideColumn": "Column side",
+        "sidePanel": "Panel opens from",
+        "sides": {
+          "start": "Start",
+          "end": "End"
+        },
+        "buttonLook": "The button shows",
+        "looks": {
+          "icon": "Icon only",
+          "text": "Word only",
+          "both": "Icon + word"
+        },
+        "buttonPosition": "Button place in the bar above the products",
+        "showCount": "Show the number of products",
+        "word": "Filter",
+        "sort": "Sort by",
+        "count": "211 products",
+        "icon": "Button icon (phones always show it)",
+        "viewSwitch": "Grid / big cards buttons"
+      }
+    },
+    "productPage": {
+      "subtitle": "The page customers see when they open a product: what shows on it, where the photos sit, and which button stands out. Changes are a draft until you press “Publish”.",
+      "partsTitle": "What shows on the page",
+      "partsHint": "Switch off anything you don't want customers to see.",
+      "groups": {
+        "top": "Next to the photos",
+        "bottom": "Under the photos"
+      },
+      "parts": {
+        "newBadge": "“New” badge on the photo",
+        "sku": "Product code",
+        "priceNote": "“Price follows today's gold rate” note",
+        "stock": "Stock label (In stock, Only a few left…)",
+        "quantity": "Quantity (− 1 +)",
+        "buyNow": "“Buy now” button",
+        "whatsapp": "“Ask on WhatsApp” button",
+        "priceBreakdown": "Price breakdown",
+        "description": "Description",
+        "specifications": "Specifications",
+        "related": "Related products"
+      },
+      "hints": {
+        "quantity": "Off = one piece per click.",
+        "buyNow": "Goes straight to checkout.",
+        "whatsapp": "Needs a WhatsApp number in Settings → Store details.",
+        "priceBreakdown": "Gold value, making charge and stones. Never shown on fixed-price pieces.",
+        "stock": "“Out of stock” always shows."
+      },
+      "layoutTitle": "Layout",
+      "imageSide": "Side of the photos",
+      "sides": {
+        "start": "Photos first",
+        "end": "Details first"
+      },
+      "imageSideHint": "First = on the right in Arabic, on the left in English. On phones the photos are always on top.",
+      "buttons": {
+        "cart": "Add to cart",
+        "buy": "Buy now",
+        "whatsapp": "Ask on WhatsApp"
+      },
+      "relatedCount": "How many related products",
+      "textsHint": "To change the words on the buttons: Theme & design → Texts.",
+      "weightHint": "To hide the weight: Settings → Store details → Website options.",
+      "buttonsTitle": "Buttons",
+      "buttonsHint": "Order, look and colours of each button. The sketch shows the result.",
+      "preview": "Sketch",
+      "up": "Move up",
+      "down": "Move down",
+      "hiddenNote": "Switched off above",
+      "qty": "Quantity",
+      "style": "Look",
+      "styles": {
+        "filled": "Filled",
+        "outline": "Outline"
+      },
+      "color": "Button colour",
+      "textColor": "Text colour",
+      "chooseColor": "Choose a colour",
+      "colorAuto": "Automatic = the website's main colour.",
+      "whatsappAuto": "Automatic = plain outline, or WhatsApp green when filled.",
+      "icon": "Show the icon",
+      "allTitle": "All buttons",
+      "layout": "Arrangement",
+      "layouts": {
+        "stack": "One under the other",
+        "row": "Side by side"
+      },
+      "size": "Size",
+      "sizes": {
+        "sm": "Small",
+        "md": "Medium",
+        "lg": "Large"
+      },
+      "shape": "Corners",
+      "shapes": {
+        "theme": "Like the website",
+        "square": "Square",
+        "pill": "Round"
+      },
+      "align": "Position of the text and buttons",
+      "aligns": {
+        "start": "Start",
+        "center": "Centre",
+        "end": "End"
+      },
+      "alignHint": "Title, price, details and (side by side) the buttons. Start = right in Arabic, left in English.",
+      "detailsTitle": "Name, price & choices",
+      "detailsHint": "How the product name, price, sizes and quantity look.",
+      "titleSize": "Name size",
+      "priceSize": "Price size",
+      "textSizes": {
+        "md": "Normal",
+        "lg": "Large",
+        "xl": "Extra large"
+      },
+      "cardPriceFormat": "Price like the product cards",
+      "cardPriceFormatHint": "Uses the sign and piastres from Layout → Product cards (e.g. \"LE 96,065.00\").",
+      "divider": "Line under the price",
+      "optionsStyle": "Choices look",
+      "optionsStyles": {
+        "pills": "Filled buttons",
+        "boxes": "Titled square boxes (Karat · Size · Weight)"
+      },
+      "factsBox": "Weight in a framed box",
+      "quantityOwnRow": "\"Quantity\" on its own line above the buttons",
+      "iconEnd": "Button icons after the text",
+      "gallery": "Photos",
+      "galleries": {
+        "thumbs": "Big photo + small photos",
+        "stack": "All photos one under the other"
+      },
+      "galleryHint": "The colour behind the photos follows Layout → Product cards → Behind the pictures."
+    },
+    "dark": {
+      "enabled": "Offer dark mode on the website",
+      "enabledHint": "On = a sun / moon button appears in the top bar. Visitors switch with it and their choice is remembered on their device. Off = the website is always in its normal colours.",
+      "first": "What visitors see first",
+      "modes": {
+        "light": "Normal (light)",
+        "dark": "Dark"
+      },
+      "firstHint": "Before they press the button themselves.",
+      "reset": "Back to the suggested dark colours"
+    }
+  },
+  "media": {
+    "subtitle": "Every file for the website: logos, banners, page photos, videos, PDFs and more.",
+    "upload": "Upload files",
+    "uploading": "Uploading…",
+    "drop": "Drag & drop files here",
+    "rules": "Any file type — up to {mb} MB each",
+    "empty": "The library is empty. Upload the first file.",
+    "copy": "Copy link",
+    "copied": "Copied",
+    "alt": "Image description (Google & screen readers)",
+    "saveAlt": "Save description",
+    "delete": "Delete",
+    "deleteConfirm": "Confirm delete",
+    "deleteWarn": "If the file is in use (e.g. as the logo) it will disappear from the website.",
+    "size": "Size",
+    "dimensions": "Dimensions",
+    "uploadedBy": "Uploaded by",
+    "select": "Use this image",
+    "errors": {
+      "too_large": "The file is larger than 50 MB.",
+      "bad_type": "This file can't be uploaded.",
+      "failed": "Something went wrong. Please try again."
+    },
+    "search": "Search by file name",
+    "count": "{count} files",
+    "crop": {
+      "adjust": "Crop & adjust",
+      "title": "Choose what shows from the picture",
+      "hint": "The frame is the exact shape of this picture on the website. Drag the picture to choose the part that shows, or fit all of it inside.",
+      "size": "Shape on the website: {ratio} · saved as {w} × {h} px",
+      "fixed": "Fixed shape {ratio} ({w} × {h} px) — any picture is cropped or fitted to it.",
+      "zoom": "Zoom",
+      "fit": "Fit whole picture",
+      "fill": "Fill the frame (crop)",
+      "background": "Empty space colour",
+      "transparent": "See-through",
+      "customColor": "Other colour",
+      "small": "This picture is small for this place, so it may look a little soft. A larger picture will be sharper.",
+      "save": "Save",
+      "saving": "Saving…",
+      "cancel": "Cancel",
+      "loadError": "Couldn't open the picture. Upload it to the media library, then choose it from there.",
+      "saveError": "Couldn't save the picture. If it's from another website, upload it to the media library first."
+    },
+    "bulk": {
+      "select": "Select",
+      "cancel": "Stop selecting",
+      "selectAll": "Select all",
+      "clear": "Clear",
+      "selected": "{count} selected",
+      "delete": "Delete ({count})",
+      "confirm": "Yes, delete {count}",
+      "warn": "Files in use will disappear from the website.",
+      "deleted": "{count} files deleted."
+    },
+    "imagesOnly": "Pictures only here (PNG, JPG, WebP, GIF…), up to 50 MB.",
+    "download": "Open / download",
+    "whiteBackground": "White background",
+    "whiteBackgroundHint": "Pictures uploaded with no background (see-through PNG) get a white background. Untick to keep them see-through."
+  },
+  "orders": {
+    "searchPlaceholder": "Order no., customer name, phone or email",
+    "search": "Search",
+    "tabs": {
+      "all": "All"
+    },
+    "period": {
+      "label": "Period",
+      "today": "Today",
+      "7d": "Last 7 days",
+      "30d": "Last 30 days",
+      "all": "All time"
+    },
+    "paymentFilter": {
+      "label": "Payment",
+      "all": "All payment states"
+    },
+    "deliveryFilter": {
+      "label": "Delivery",
+      "all": "Delivery & pickup",
+      "delivery": "Delivery",
+      "store_pickup": "Store pickup"
+    },
+    "export": "Export Excel",
+    "clear": "Clear filters",
+    "columns": {
+      "number": "Order no.",
+      "customer": "Customer",
+      "city": "City",
+      "date": "Date",
+      "items": "Items",
+      "payment": "Payment",
+      "total": "Total",
+      "status": "Status"
+    },
+    "pickup": "Store pickup",
+    "empty": "No orders match these filters.",
+    "showing": "Showing {from}–{to} of {total} orders",
+    "prev": "Previous",
+    "next": "Next",
+    "open": "Open",
+    "paymentStatus": {
+      "pending": "Unpaid",
+      "awaiting_transfer": "Awaiting transfer",
+      "paid": "Paid",
+      "failed": "Payment failed",
+      "refunded": "Refunded"
+    },
+    "paymentMethod": {
+      "cash_on_delivery": "Cash on delivery",
+      "card": "Card",
+      "bank_transfer": "Bank transfer",
+      "pay_in_store": "Pay at branch"
+    },
+    "detail": {
+      "back": "Orders",
+      "placedAt": "Placed",
+      "print": "Print invoice",
+      "progress": "Order status",
+      "nextStep": "Next step",
+      "noActions": "No further steps for this order.",
+      "customerSees": "Every change shows in the customer's “My orders” and sends them an email.",
+      "items": "Items",
+      "sku": "SKU",
+      "size": "Size",
+      "weight": "Weight",
+      "grams": "g",
+      "karat": "{karat}K",
+      "qty": "× {qty}",
+      "goldRate": "Gold rate at order time",
+      "making": "Making charge",
+      "customer": "Customer",
+      "delivery": "Delivery",
+      "pickupAt": "Pickup from",
+      "address": "Address",
+      "customerNote": "Customer note",
+      "tracking": "Tracking number",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "coupon": "Coupon {code}",
+      "vat": "VAT (on making charge)",
+      "shipping": "Shipping",
+      "free": "Free",
+      "total": "Total",
+      "priceLocked": "Prices are locked to the gold rate at order time.",
+      "payment": "Payment",
+      "method": "Method",
+      "paymentState": "Payment status",
+      "markPaid": "Confirm payment received",
+      "markRefunded": "Record refund",
+      "history": "Order history",
+      "addNote": "Add internal note",
+      "notePlaceholder": "Visible to staff only, never to the customer",
+      "saveNote": "Save note",
+      "by": "by {name}",
+      "system": "Customer / system",
+      "notFound": "Order not found.",
+      "viewOnly": "View only — changing orders needs the orders edit permission.",
+      "callCustomer": "Call",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "customerFile": "Customer file"
+    },
+    "events": {
+      "created": "Order placed on the website",
+      "status": "Status changed to “{status}”",
+      "payment": "Payment: {payment}",
+      "note": "Note",
+      "tracking": "Tracking number: {note}"
+    },
+    "actions": {
+      "confirmed": "Confirm order",
+      "processing": "Start preparing",
+      "shipped": "Mark as shipped",
+      "ready_for_pickup": "Ready for pickup",
+      "delivered": "Mark as delivered",
+      "cancelled": "Cancel order",
+      "returned": "Record a return"
+    },
+    "dialog": {
+      "cancelTitle": "Cancel order {number}",
+      "returnTitle": "Return for order {number}",
+      "reason": "Reason (saved in the order history)",
+      "shipTitle": "Ship order {number}",
+      "trackingLabel": "Tracking number (optional)",
+      "confirm": "Confirm",
+      "close": "Back",
+      "working": "Saving…"
+    },
+    "errors": {
+      "invalid_transition": "This change isn't possible from the current status. Refresh the page.",
+      "reason_required": "Write the reason first.",
+      "not_found": "Order not found.",
+      "forbidden": "You don't have permission to change orders.",
+      "failed": "Couldn't save. Please try again."
+    },
+    "invoice": {
+      "title": "Invoice",
+      "taxInvoice": "Simplified tax invoice",
+      "number": "Invoice no.",
+      "date": "Date",
+      "billTo": "Customer",
+      "order": "Order",
+      "item": "Item",
+      "unit": "Unit price",
+      "lineTotal": "Total",
+      "printNow": "Print",
+      "back": "Back to order",
+      "thanks": "Thank you for shopping with us",
+      "taxNo": "Tax no.: [TAX NUMBER]"
+    }
+  },
+  "customers": {
+    "searchPlaceholder": "Name, phone or email",
+    "search": "Search",
+    "tabs": {
+      "all": "All",
+      "registered": "With account",
+      "guest": "Guests",
+      "repeat": "Repeat customers",
+      "disabled": "Stopped"
+    },
+    "sort": {
+      "label": "Sort",
+      "newest": "Newest sign-up",
+      "spent": "Top spenders",
+      "orders": "Most orders",
+      "last_order": "Latest order"
+    },
+    "marketingOnly": "Accept offers only",
+    "export": "Export Excel",
+    "clear": "Clear filters",
+    "columns": {
+      "name": "Customer",
+      "phone": "Phone",
+      "email": "Email",
+      "city": "City",
+      "type": "Type",
+      "signIn": "Signed up with",
+      "orders": "Orders",
+      "spent": "Total spent",
+      "lastOrder": "Last order",
+      "since": "Signed up",
+      "marketing": "Accepts offers",
+      "state": "Account"
+    },
+    "kind": {
+      "registered": "Account",
+      "guest": "Guest"
+    },
+    "signIn": {
+      "password": "Email & password",
+      "google": "Google"
+    },
+    "yes": "Yes",
+    "no": "No",
+    "disabledBadge": "Stopped",
+    "never": "No orders yet",
+    "empty": "No customers match these filters.",
+    "showing": "Showing {from}–{to} of {total} customers",
+    "prev": "Previous",
+    "next": "Next",
+    "detail": {
+      "back": "Customers",
+      "since": "Customer since {date}",
+      "guestSince": "First order {date}",
+      "stats": {
+        "orders": "Orders",
+        "spent": "Total spent",
+        "average": "Average order",
+        "lastOrder": "Last order"
+      },
+      "spentNote": "Cancelled and returned orders not included",
+      "orders": "Orders",
+      "noOrders": "This customer hasn't ordered yet.",
+      "addresses": "Addresses",
+      "noAddresses": "No saved addresses.",
+      "default": "Default",
+      "fromOrder": "From order {number}",
+      "account": "Account details",
+      "email": "Email",
+      "phone": "Phone",
+      "signInWith": "Signed up with",
+      "memberSince": "Customer since",
+      "language": "Order language",
+      "languages": {
+        "ar": "Arabic",
+        "en": "English"
+      },
+      "marketing": "Offers by email",
+      "marketingYes": "Accepts",
+      "marketingNo": "Doesn't accept",
+      "birthday": "Birthday",
+      "coupons": "Coupons used",
+      "none": "—",
+      "guestInfo": "Ordered without creating an account. Orders are grouped by phone number.",
+      "notes": "Staff notes",
+      "addNote": "Add an internal note",
+      "notePlaceholder": "e.g. Prefers WhatsApp in the afternoon",
+      "saveNote": "Save note",
+      "noNotes": "No notes yet.",
+      "by": "by {name}",
+      "call": "Call",
+      "whatsapp": "WhatsApp",
+      "sendEmail": "Email",
+      "notFound": "Customer not found.",
+      "viewOnly": "View only — changing customers needs the edit customers permission.",
+      "disabledNotice": "This account is stopped — the customer can't log in on the website.",
+      "events": {
+        "note": "Note",
+        "disabled": "Account stopped",
+        "enabled": "Account reactivated"
+      }
+    },
+    "actions": {
+      "disable": "Stop account",
+      "enable": "Reactivate account",
+      "disableTitle": "Stop {name}'s account",
+      "disableText": "The customer won't be able to log in on the website. Past orders stay as they are, and you can reactivate the account at any time.",
+      "enableTitle": "Reactivate {name}'s account",
+      "enableText": "The customer will be able to log in and order again.",
+      "reason": "Reason (saved in the customer's file)",
+      "confirm": "Confirm",
+      "close": "Back",
+      "working": "Saving…"
+    },
+    "errors": {
+      "reason_required": "Please write the reason first.",
+      "not_found": "Customer not found.",
+      "guest": "This customer has no account.",
+      "forbidden": "You don't have permission to change customers.",
+      "failed": "Couldn't save. Please try again."
+    }
+  },
+  "inbox": {
+    "subtitle": "Sent from the website's “Contact us” form",
+    "searchPlaceholder": "Name, phone, email, message number or a word in it",
+    "search": "Search",
+    "allSubjects": "All subjects",
+    "subjectFilter": "Subject",
+    "clear": "Clear",
+    "tabs": {
+      "all": "All",
+      "new": "New",
+      "open": "Awaiting reply",
+      "done": "Handled"
+    },
+    "status": {
+      "new": "New",
+      "open": "Awaiting reply",
+      "done": "Handled"
+    },
+    "empty": "No messages match these filters.",
+    "pick": "Choose a message from the list.",
+    "replied": "Replied",
+    "prev": "Previous",
+    "next": "Next",
+    "showing": "{from}–{to} of {total}",
+    "back": "All messages",
+    "detail": {
+      "reference": "Message no.",
+      "from": "From",
+      "phone": "Phone",
+      "email": "Email",
+      "prefers": "Prefers a reply by",
+      "branch": "Branch",
+      "language": "Visitor's language",
+      "languages": {
+        "ar": "Arabic",
+        "en": "English"
+      },
+      "sentFrom": "Sent from page",
+      "receivedAt": "Received",
+      "customerFile": "Customer file",
+      "call": "Call",
+      "whatsapp": "WhatsApp",
+      "sendEmail": "Email",
+      "noEmail": "No email given",
+      "history": "Replies and notes",
+      "noHistory": "No reply yet.",
+      "by": "by {name}",
+      "notFound": "Message not found.",
+      "viewOnly": "View only — replying needs the edit messages permission."
+    },
+    "channels": {
+      "email": "email",
+      "whatsapp": "WhatsApp",
+      "phone": "phone call"
+    },
+    "events": {
+      "reply": "Reply by {channel}",
+      "note": "Internal note",
+      "status": "Status: {status}"
+    },
+    "reply": {
+      "title": "Reply",
+      "how": "Reply by",
+      "hint": {
+        "email": "Emailed to the customer in their language ({language}).",
+        "whatsapp": "Opens WhatsApp with the text ready, and saves the reply here.",
+        "phone": "Call the customer, then write a short summary to save."
+      },
+      "placeholder": {
+        "email": "Write your reply…",
+        "whatsapp": "Write the WhatsApp message…",
+        "phone": "Call summary: what did you agree on?"
+      },
+      "templates": "Ready replies",
+      "markDone": "Mark as handled after saving",
+      "send": {
+        "email": "Send reply by email",
+        "whatsapp": "Open WhatsApp & save",
+        "phone": "Save call summary"
+      },
+      "sending": "Saving…",
+      "sent": "Reply saved.",
+      "noEmail": "This visitor didn't give an email — choose WhatsApp or a call."
+    },
+    "actions": {
+      "done": "Mark as handled",
+      "reopen": "Reopen"
+    },
+    "note": {
+      "addNote": "Add an internal note",
+      "notePlaceholder": "Visible to staff only",
+      "saveNote": "Save note"
+    },
+    "errors": {
+      "failed": "Couldn't save. Please try again.",
+      "forbidden": "You don't have permission to change messages.",
+      "no_email": "This visitor didn't give an email.",
+      "not_found": "Message not found."
+    }
+  },
+  "custom": {
+    "subtitle": "“Design your piece” requests from the website: the customer's photos and description.",
+    "search": "Search",
+    "searchPlaceholder": "Name, phone, email, request number or a word in it",
+    "typeFilter": "Piece type",
+    "allTypes": "All types",
+    "clear": "Clear",
+    "statusFilter": "Status",
+    "all": "All",
+    "status": {
+      "new": "New",
+      "reviewing": "Reviewing",
+      "quoted": "Quote sent",
+      "in_work": "In work",
+      "done": "Delivered",
+      "rejected": "Rejected"
+    },
+    "types": {
+      "ring": "Ring / band",
+      "necklace": "Chain / necklace",
+      "bracelet": "Bracelet / bangle",
+      "earrings": "Earrings",
+      "set": "Set",
+      "other": "Other"
+    },
+    "karats": {
+      "any": "No preference",
+      "18": "18K",
+      "21": "21K",
+      "24": "24K"
+    },
+    "empty": "No requests match these filters.",
+    "pick": "Choose a request from the list.",
+    "prev": "Previous",
+    "next": "Next",
+    "showing": "{from}–{to} of {total}",
+    "back": "All requests",
+    "notFound": "Request not found.",
+    "reference": "Request no.",
+    "receivedAt": "Received",
+    "quotedPrice": "Quote: {price}",
+    "photos": "Customer's photos ({n})",
+    "photo": "Photo",
+    "openPhoto": "Open full size",
+    "description": "What the customer wants",
+    "pieceType": "Type",
+    "karat": "Karat",
+    "budget": "Budget",
+    "customer": "Customer",
+    "phone": "Phone",
+    "email": "Email",
+    "noEmail": "No email given",
+    "prefers": "Prefers contact by",
+    "channels": {
+      "email": "email",
+      "whatsapp": "WhatsApp",
+      "phone": "phone call"
+    },
+    "language": "Customer's language",
+    "languages": {
+      "ar": "Arabic",
+      "en": "English"
+    },
+    "account": "Account",
+    "registered": "Registered customer",
+    "guest": "Guest (no account)",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "sendEmail": "Email",
+    "customerFile": "Customer file",
+    "history": "History and notes",
+    "noHistory": "No updates yet.",
+    "by": "by {name}",
+    "events": {
+      "note": "Internal note",
+      "status": "Status: {status}"
+    },
+    "change": {
+      "title": "Update the request",
+      "status": "Status",
+      "quote": "Quote",
+      "quoteHint": "The amount you sent the customer — kept with the request.",
+      "note": "Note with the update (optional)",
+      "notePlaceholder": "e.g. Sent the quote on WhatsApp, 10 days to make",
+      "save": "Save",
+      "saved": "Saved.",
+      "error": "Couldn't save. Please try again."
+    },
+    "note": {
+      "addNote": "Add an internal note",
+      "notePlaceholder": "Visible to staff only",
+      "saveNote": "Save note"
+    },
+    "viewOnly": "View only — updating needs the edit permission for customization requests."
+  },
+  "reports": {
+    "periods": {
+      "today": "Today",
+      "7d": "7 days",
+      "30d": "30 days",
+      "90d": "3 months",
+      "12m": "12 months",
+      "custom": "Custom"
+    },
+    "periodLabel": "Period",
+    "from": "From",
+    "to": "To",
+    "apply": "Show",
+    "range": "{from} – {to}",
+    "export": "Export Excel",
+    "exportProducts": "Export products",
+    "kpi": {
+      "sales": "Total sales",
+      "orders": "Orders",
+      "average": "Average order",
+      "gold": "Gold sold",
+      "grams": "g",
+      "pieces": "{n} pieces"
+    },
+    "vsPrevious": "{pct} vs previous period",
+    "noPrevious": "No data for the previous period",
+    "chart": {
+      "title": "Sales",
+      "byDay": "per day",
+      "byMonth": "per month",
+      "hint": "Hover over (or tap) a bar to see its value",
+      "orders": "{n} orders",
+      "empty": "No sales in this period."
+    },
+    "breakdown": {
+      "title": "Sales breakdown",
+      "goldValue": "Gold value",
+      "making": "Making charges",
+      "stones": "Stones",
+      "discounts": "Discounts",
+      "vat": "VAT",
+      "shipping": "Shipping",
+      "total": "Total",
+      "note": "Using the gold prices saved at the time of each order."
+    },
+    "byCategory": "Sales by category",
+    "byKarat": {
+      "title": "By karat",
+      "karat": "Karat",
+      "karatN": "{k}K",
+      "grams": "Weight",
+      "pieces": "Pieces",
+      "sales": "Sales"
+    },
+    "topProducts": {
+      "title": "Best sellers",
+      "pieces": "{n} pcs",
+      "empty": "No sales yet."
+    },
+    "statuses": "Orders by status",
+    "payment": "Payment methods",
+    "delivery": "Delivery & pickup",
+    "cities": "Top cities",
+    "coupons": {
+      "title": "Coupons",
+      "orders": "{n} orders",
+      "discount": "{amount} off",
+      "none": "No coupons used."
+    },
+    "customers": {
+      "title": "Customers",
+      "new": "New customers",
+      "returning": "Returning customers",
+      "note": "New = their first order is in this period."
+    },
+    "lost": {
+      "title": "Cancelled & returned",
+      "cancelled": "Cancelled",
+      "returned": "Returned",
+      "note": "Not counted in sales."
+    },
+    "rules": "Sales = all orders except cancelled and returned, by order date ({tz}).",
+    "csv": {
+      "period": "Period",
+      "sales": "Sales",
+      "orders": "Orders",
+      "gold": "Gold (g)",
+      "product": "Product",
+      "pieces": "Pieces"
+    }
+  },
+  "products": {
+    "erpNote": "Weight, stock and SKU come from the ERP and aren't edited here.",
+    "sync": "Sync with ERP",
+    "syncing": "Syncing…",
+    "synced": "Synced — {n} products updated.",
+    "lastSync": "Last sync: {when}",
+    "neverSynced": "Not synced yet",
+    "add": "Add product",
+    "searchPlaceholder": "Product name or SKU",
+    "search": "Search",
+    "allCategories": "All categories",
+    "allKarats": "All karats",
+    "karatN": "{k}K",
+    "allStock": "All stock",
+    "clear": "Clear filters",
+    "sort": {
+      "label": "Sort",
+      "newest": "Newest",
+      "name": "Name",
+      "price_asc": "Price: low to high",
+      "price_desc": "Price: high to low",
+      "stock_asc": "Stock: lowest first"
+    },
+    "tabs": {
+      "all": "All",
+      "visible": "On the website",
+      "hidden": "Hidden",
+      "out_of_stock": "Out of stock"
+    },
+    "stock": {
+      "in_stock": "In stock",
+      "low_stock": "Limited",
+      "out_of_stock": "Out of stock",
+      "made_to_order": "Made to order"
+    },
+    "columns": {
+      "product": "Product",
+      "sku": "SKU",
+      "category": "Category",
+      "karat": "Karat",
+      "weight": "Weight",
+      "price": "Current price",
+      "stock": "Stock",
+      "visible": "On website"
+    },
+    "pieces": "{n} pcs",
+    "sizes": "{n} sizes",
+    "grams": "g",
+    "from": "from",
+    "edit": "Edit",
+    "manualBadge": "Added manually",
+    "empty": "No products match these filters.",
+    "showing": "Showing {from}–{to} of {total} products",
+    "prev": "Previous",
+    "next": "Next",
+    "priceNote": "Current price = lightest size × today's gold price + making charge + stones.",
+    "visibleOn": "Visible",
+    "visibleOff": "Hidden",
+    "toggleFailed": "Couldn't change it",
+    "form": {
+      "back": "Products",
+      "newTitle": "New product",
+      "cancel": "Cancel",
+      "save": "Save & publish",
+      "saving": "Saving…",
+      "saved": "Saved — the change is live on the website.",
+      "viewOnSite": "View on website",
+      "basics": "Basic information",
+      "nameAr": "Name in Arabic",
+      "nameEn": "Name in English",
+      "description": "Description",
+      "arabic": "عربي",
+      "english": "English",
+      "category": "Category",
+      "chooseCategory": "Choose a category",
+      "slug": "Product link (slug)",
+      "slugHint": "Lower-case English letters, numbers and dashes. Shown in the page address: /products/{slug}",
+      "makeSlug": "Suggest from English name",
+      "tags": "Search words",
+      "tagsHint": "Separate with commas, e.g. gift, engagement",
+      "gold": "Gold & pricing",
+      "erpFields": "Grey fields come from the ERP",
+      "sku": "SKU",
+      "karat": "Karat",
+      "metal": "Metal",
+      "metals": {
+        "yellow_gold": "Yellow gold",
+        "white_gold": "White gold",
+        "rose_gold": "Rose gold",
+        "platinum": "Platinum",
+        "silver": "Silver"
+      },
+      "pricingMode": "Pricing",
+      "pricingModes": {
+        "weight_based": "By weight & gold price",
+        "fixed": "Fixed price from ERP"
+      },
+      "makingType": "Making charge type",
+      "makingTypes": {
+        "per_gram": "Per gram",
+        "fixed": "Fixed per piece",
+        "percent": "% of gold value"
+      },
+      "makingValue": {
+        "per_gram": "Making charge ({currency}/g)",
+        "fixed": "Making charge ({currency})",
+        "percent": "Percent (%)"
+      },
+      "stones": "Stones",
+      "addStone": "Add stone",
+      "noStones": "No stones",
+      "stoneType": "Type",
+      "stoneCount": "Count",
+      "carat": "Carat",
+      "color": "Color",
+      "clarity": "Clarity",
+      "stonePrice": "Price ({currency})",
+      "remove": "Remove",
+      "stoneTypes": {
+        "diamond": "Diamond",
+        "ruby": "Ruby",
+        "emerald": "Emerald",
+        "sapphire": "Sapphire",
+        "pearl": "Pearl",
+        "zircon": "Zircon",
+        "other": "Other"
+      },
+      "images": "Images",
+      "main": "Main",
+      "addImage": "Add image",
+      "fromLibrary": "From media library",
+      "pasteUrl": "or paste an image link",
+      "addUrl": "Add",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "imagesHint": "The first image is the main one on the website. Square, 1200×1200 or larger.",
+      "noImages": "No images yet.",
+      "variants": "Sizes & stock",
+      "size": "Size",
+      "length": "Length",
+      "weight": "Weight (g)",
+      "qty": "Qty",
+      "status": "Status",
+      "fixedPrice": "Price ({currency})",
+      "addVariant": "Add size",
+      "madeToOrder": "Made to order",
+      "variantsErp": "From the ERP — updated by sync.",
+      "preview": "Price preview",
+      "previewFor": "For size",
+      "rate": "Today's {karat}K price per gram",
+      "metalValue": "Gold value ({weight} g)",
+      "making": "Making charge",
+      "stonesTotal": "Stones",
+      "sitePrice": "Price on website",
+      "previewNote": "Updates by itself whenever the gold price changes. VAT not included (added at checkout).",
+      "noRate": "No gold price for this karat.",
+      "visibility": "Visibility",
+      "visible": "Visible on website",
+      "featured": "Featured on the home page",
+      "isNew": "\"New\" badge",
+      "certificate": "Certificate",
+      "hasCertificate": "This piece has a certificate",
+      "issuer": "Issued by",
+      "certNumber": "Certificate number",
+      "danger": "Delete product",
+      "delete": "Delete product permanently",
+      "deleteConfirm": "Delete \"{name}\" permanently? This can't be undone.",
+      "erpNoDelete": "ERP products can't be deleted here — hide them from the website instead.",
+      "viewOnly": "View only — editing needs the edit products permission.",
+      "notFound": "Product not found.",
+      "unsaved": "You have unsaved changes.",
+      "collection": "Collection",
+      "noCollection": "No collection"
+    },
+    "errors": {
+      "required": "Required",
+      "invalidSlug": "Lower-case English letters, numbers and dashes only",
+      "invalidUrl": "Invalid link",
+      "slug_taken": "This link is already used by another product.",
+      "sku_taken": "This SKU is already used by another product.",
+      "category_missing": "Choose an existing category.",
+      "erp_product": "ERP products can't be deleted — hide them instead.",
+      "not_found": "Product not found.",
+      "validation": "Check the fields marked in red.",
+      "forbidden": "You don't have permission to edit products.",
+      "failed": "Couldn't save. Please try again."
+    }
+  },
+  "categories": {
+    "add": "New category",
+    "dragHint": "Drag to change the order on the website (or use the arrows)",
+    "count": "{n} categories",
+    "products": "{n} products",
+    "visible": "Visible",
+    "hidden": "Hidden",
+    "sub": "Under {parent}",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "orderSaved": "Order saved.",
+    "editTitle": "Edit category: {name}",
+    "newTitle": "New category",
+    "viewProducts": "View products",
+    "pick": "Choose a category from the list to edit it.",
+    "nameAr": "Name in Arabic",
+    "nameEn": "Name in English",
+    "slug": "Link (slug)",
+    "slugHint": "Shown in the page address: /categories/{slug}",
+    "makeSlug": "Suggest from English name",
+    "parent": "Parent category",
+    "noParent": "None (main category)",
+    "descAr": "Short description in Arabic (under the title)",
+    "descEn": "Short description in English",
+    "image": "Card image",
+    "imageHint": "Shown in the categories list — square 800×800",
+    "banner": "Wide banner image",
+    "bannerHint": "Top of the category page — about 1600×500",
+    "hide": "Hide from the website (with its products)",
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved.",
+    "delete": "Delete category",
+    "deleteConfirm": "Delete the category \"{name}\"?",
+    "cannotDelete": "A category with products or sub-categories can't be deleted — move them first.",
+    "viewOnly": "View only — editing needs the edit categories permission.",
+    "errors": {
+      "required": "Required",
+      "invalidSlug": "Lower-case English letters, numbers and dashes only",
+      "invalidUrl": "Invalid link",
+      "slug_taken": "This link is already used by another category.",
+      "has_products": "This category has products — move them to another category first.",
+      "has_children": "This category has sub-categories — move them first.",
+      "bad_parent": "A category can't be placed under itself or one of its sub-categories.",
+      "not_found": "Category not found.",
+      "validation": "Check the fields marked in red.",
+      "forbidden": "You don't have permission to edit categories.",
+      "failed": "Couldn't save. Please try again."
+    },
+    "back": "All categories",
+    "cancel": "Cancel"
+  },
+  "sitePages": {
+    "hint": "Every page is built from ready-made sections (title, image & text, numbers, timeline, questions, branches…). The home page has its own editor under \"Home page\".",
+    "home": {
+      "title": "Homepage",
+      "hint": "The blocks of the store's first page, top to bottom. Changes are saved as a draft — press Publish to put them on the website."
+    },
+    "new": "New page",
+    "columns": {
+      "page": "Page",
+      "link": "Link",
+      "sections": "Sections",
+      "menu": "In menu",
+      "updated": "Last change",
+      "status": "Status"
+    },
+    "status": {
+      "published": "Published",
+      "changed": "Unpublished changes",
+      "draft": "Draft"
+    },
+    "menu": {
+      "header": "Top menu",
+      "footer": "Footer",
+      "none": "Not in menus"
+    },
+    "systemBadge": "Main page",
+    "edit": "Edit",
+    "by": "by {name}",
+    "newDialog": {
+      "title": "New page",
+      "titleAr": "Title in Arabic",
+      "titleEn": "Title in English",
+      "slug": "Link (slug)",
+      "slugHint": "Its address will be: /pages/{slug}",
+      "menu": "Show in",
+      "create": "Create",
+      "creating": "Creating…",
+      "cancel": "Cancel",
+      "makeSlug": "Suggest from English title"
+    },
+    "editor": {
+      "back": "Pages",
+      "editing": "Editing the",
+      "ar": "Arabic",
+      "en": "English",
+      "preview": "Preview",
+      "publish": "Publish",
+      "publishing": "Publishing…",
+      "published": "Published — the page is live on the website.",
+      "saving": "Saving draft…",
+      "savedAt": "Draft saved {time}",
+      "saveFailed": "Couldn't save — check your connection.",
+      "upToDate": "No unpublished changes",
+      "discard": "Discard changes",
+      "discardConfirm": "Go back to the published version and delete all unpublished changes?",
+      "unpublish": "Take offline",
+      "unpublishConfirm": "The page will disappear from the website (its content stays as a draft). Continue?",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "viewLive": "View on website",
+      "sections": "Page sections",
+      "addSection": "Add section",
+      "settings": "Page settings",
+      "hidden": "Hidden",
+      "show": "Show",
+      "hide": "Hide",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "deleteSection": "Delete this section",
+      "deleteSectionConfirm": "Delete the \"{name}\" section?",
+      "pick": "Choose a section to edit, or \"Page settings\".",
+      "autosaveNote": "Saved automatically as a draft — visitors won't see it until you press \"Publish\".",
+      "incomplete": "Fill in the highlighted fields in both languages before publishing:",
+      "missingIn": "Missing",
+      "bothLanguages": "Arabic and English",
+      "viewOnly": "View only — editing needs the edit content permission.",
+      "notFound": "Page not found."
+    },
+    "settings": {
+      "title": "Page title",
+      "link": "Link",
+      "linkFixed": "This main page has a fixed link.",
+      "changeLink": "Change link",
+      "save": "Save",
+      "saved": "Saved.",
+      "menu": "Show in",
+      "menuHint": "Changing where it shows applies right away.",
+      "seo": "Google & sharing",
+      "seoTitle": "Title in search results",
+      "seoDescription": "Short description in search results",
+      "seoImage": "Share image (WhatsApp, Facebook…)",
+      "seoHint": "Leave empty to use the page title.",
+      "danger": "Delete page",
+      "delete": "Delete page permanently",
+      "deleteConfirm": "Delete the page \"{name}\" permanently?",
+      "systemNoDelete": "Main pages (About, Contact, FAQ, Terms) can't be deleted — you can take them offline."
+    },
+    "types": {
+      "page_hero": {
+        "name": "Page title banner",
+        "desc": "Title bar at the top of the page, with optional picture and buttons"
+      },
+      "rich_text": {
+        "name": "Text",
+        "desc": "Paragraphs, headings and lists"
+      },
+      "image_text": {
+        "name": "Image & text",
+        "desc": "Text next to an image"
+      },
+      "stats": {
+        "name": "Numbers",
+        "desc": "e.g. 30+ years, 5 branches"
+      },
+      "features": {
+        "name": "Features",
+        "desc": "Icon + title + text"
+      },
+      "timeline": {
+        "name": "Timeline",
+        "desc": "Company history by year"
+      },
+      "faq": {
+        "name": "Questions & answers",
+        "desc": "Questions that open on click"
+      },
+      "branches": {
+        "name": "Branches",
+        "desc": "Branch cards, automatic"
+      },
+      "cta": {
+        "name": "Call to action",
+        "desc": "Strip with one or two buttons"
+      },
+      "contact": {
+        "name": "Contact form",
+        "desc": "Contact details + the form"
+      },
+      "custom_order": {
+        "name": "“Design your piece” form",
+        "desc": "Customer uploads a photo and writes the details — arrives in Customization requests"
+      },
+      "hero": {
+        "name": "Hero / main slider",
+        "desc": "Big pictures at the top, with optional words and buttons you place yourself"
+      },
+      "gold_prices": {
+        "name": "Today's gold prices",
+        "desc": "Price per gram for the karats you choose"
+      },
+      "categories": {
+        "name": "Categories",
+        "desc": "Category cards with their pictures"
+      },
+      "featured_products": {
+        "name": "Product row",
+        "desc": "Featured, new, a category, or pieces you pick"
+      },
+      "promotion": {
+        "name": "Offer",
+        "desc": "Text and a button next to a picture"
+      },
+      "banner": {
+        "name": "Wide picture",
+        "desc": "One picture across the page, with optional text"
+      },
+      "brands": {
+        "name": "Collections",
+        "desc": "The store's collections (Classic, Bridal…)"
+      },
+      "video": {
+        "name": "Video",
+        "desc": "YouTube, Vimeo or a video file"
+      },
+      "social_feed": {
+        "name": "Social feed",
+        "desc": "Tall pictures from Instagram / TikTok with the account name"
+      },
+      "product_spotlight": {
+        "name": "Spotlight",
+        "desc": "A big picture with words next to 2 or 4 product cards"
+      },
+      "locations": {
+        "name": "Places on a picture",
+        "desc": "A wide picture with a title and your stores along the bottom"
+      }
+    },
+    "fields": {
+      "title": "Title",
+      "subtitle": "Text under the title",
+      "image": "Image",
+      "backgroundImage": "Background image (optional)",
+      "eyebrow": "Small line above the title",
+      "body": "Text",
+      "imagePosition": "Image position",
+      "imageStart": "Before the text (left in English)",
+      "imageEnd": "After the text (right in English)",
+      "width": "Text width",
+      "narrow": "Narrow (easier to read)",
+      "wide": "Wide",
+      "items": "Items",
+      "addItem": "Add",
+      "removeItem": "Remove",
+      "value": "Number",
+      "label": "Label",
+      "columns": "Columns",
+      "icon": "Icon",
+      "text": "Text",
+      "year": "Year",
+      "question": "Question",
+      "answer": "Answer",
+      "branchesNote": "This section shows the branches automatically from Settings → Branches. Nothing to write here.",
+      "button": "Button",
+      "button2": "Second button (next to the first)",
+      "primary": "Main button",
+      "secondary": "Second button (optional)",
+      "buttonText": "Button text",
+      "buttonOpens": "Button opens",
+      "linkTo": {
+        "products": "Products page",
+        "category": "A category",
+        "contact": "Contact us",
+        "page": "Another page",
+        "url": "External link"
+      },
+      "chooseCategory": "Choose a category",
+      "choosePage": "Choose a page",
+      "background": "Background",
+      "bg": {
+        "primary": "Main site colour",
+        "secondary": "Soft colour",
+        "image": "Image"
+      },
+      "subjects": "Message subjects (the list in the form)",
+      "subjectId": "Code",
+      "successMessage": "Message after sending",
+      "showContactInfo": "Show phone, WhatsApp and address next to the form",
+      "showBranchSelect": "Ask for the preferred branch",
+      "icons": {
+        "gem": "Gem",
+        "shield": "Shield (warranty)",
+        "scale": "Scale",
+        "sparkles": "Sparkles",
+        "award": "Award",
+        "heart": "Heart",
+        "truck": "Delivery",
+        "coins": "Coins",
+        "wrench": "Repair",
+        "badge": "Badge"
+      },
+      "slides": "Slides",
+      "slideImage": "Picture (wide, about 1600 × 700)",
+      "mobileImage": "Picture for phones (optional, tall)",
+      "slidesNote": "With more than one slide, they change by themselves every few seconds. The title is optional — leave it empty for a picture only.",
+      "source": "Which products",
+      "sources": {
+        "featured": "Featured products",
+        "new": "New arrivals",
+        "category": "From a category",
+        "manual": "I'll choose them"
+      },
+      "sourceHints": {
+        "featured": "Products marked \"Featured\" in Products.",
+        "new": "Products marked \"New\" in Products.",
+        "category": "The newest products of the category you choose.",
+        "manual": "Exactly the pieces you add below, in this order."
+      },
+      "category": "Category",
+      "pickProducts": "Chosen products",
+      "searchProducts": "Search by name or code to add",
+      "noResults": "No products found",
+      "noPicked": "No products chosen yet.",
+      "hiddenProduct": "Hidden from the website",
+      "addProduct": "Add",
+      "limit": "How many to show",
+      "showCategories": "Categories to show",
+      "allCategoriesHint": "None ticked = all visible categories, in their order.",
+      "showBrands": "Collections to show",
+      "allBrandsHint": "None ticked = all collections.",
+      "videoProvider": "Video from",
+      "providers": {
+        "youtube": "YouTube",
+        "vimeo": "Vimeo",
+        "file": "Video file (MP4 link)"
+      },
+      "videoUrl": "Video link",
+      "videoHint": "Paste the normal YouTube / Vimeo link — it's changed to the right form by itself.",
+      "poster": "Cover picture (optional)",
+      "description": "Description",
+      "endsAt": "Offer ends (optional)",
+      "endsAtHint": "After this date the block hides by itself.",
+      "karats": "Karats to show",
+      "karatN": "{k}K",
+      "karatsHint": "Prices come from Gold prices & coupons.",
+      "bannerTitle": "Text on the picture (optional)",
+      "customOrderNote": "Requests sent from this form appear in “Customization requests”.",
+      "steps": "“How it works” steps",
+      "step": "Step",
+      "showKarat": "Show the “Preferred karat” field",
+      "showBudget": "Show the “Approximate budget” field",
+      "branchesAlign": "Position of the branch cards",
+      "branchesAlignHint": "Shows when the branches don't fill the row (one or two branches).",
+      "aligns": {
+        "start": "Left (right in Arabic)",
+        "center": "Center",
+        "end": "Right (left in Arabic)"
+      },
+      "hero": {
+        "title": "Layout & colours",
+        "sampleTitle": "Title",
+        "sampleText": "Text under the title",
+        "textPosition": "Where the words sit",
+        "buttonsPosition": "Where the buttons sit",
+        "sideHint": "The grid shows the picture: click where you want the words. In Arabic the website reads right to left, so sides follow the language.",
+        "rows": {
+          "top": "Top",
+          "middle": "Middle",
+          "bottom": "Bottom"
+        },
+        "cols": {
+          "start": "Start side",
+          "center": "Centre",
+          "end": "End side"
+        },
+        "titleSize": "Title size",
+        "sizes": {
+          "sm": "Small",
+          "md": "Medium",
+          "lg": "Large"
+        },
+        "titleColor": "Title colour",
+        "textColor": "Text colour",
+        "auto": "Automatic",
+        "overlay": "Shade over the picture",
+        "overlayHint": "Darker = words are easier to read. 0 = the picture as it is.",
+        "overlayColor": "Shade colour",
+        "noButtons": "No buttons on this one. Write a button text above to add one, then style and place it here.",
+        "buttonsPlace": "Buttons",
+        "buttonsWithText": "Under the words",
+        "buttonsOwn": "Their own place",
+        "button1": "First button",
+        "button2": "Second button",
+        "buttonLook": "Look",
+        "filled": "Filled",
+        "outline": "Outline",
+        "buttonColor": "Button colour",
+        "buttonTextColor": "Colour of its words",
+        "reset": "Back to the original design",
+        "height": "Banner height",
+        "breadcrumb": "Show “Home / page” above the title",
+        "backgroundColor": "Background colour (no picture)",
+        "showTitleGroup": "What shows",
+        "showTitle": "Title",
+        "showText": "Text under the title",
+        "showHint": "Click to switch a part on or off. What you typed is kept, so you can switch it back on later.",
+        "hiddenTitleNote": "hidden on the page (still used for the browser tab and Google)",
+        "blur": "Blur the picture",
+        "blurOff": "off",
+        "blurHint": "0 = sharp picture. Higher = softer, up to 20. The words and buttons stay sharp."
+      },
+      "buttonDoes": "What does the button do?",
+      "buttonWhere": "Which page?",
+      "chooseProduct": "Choose a product",
+      "linkKinds": {
+        "page": "Opens a page",
+        "category": "Opens a category",
+        "product": "Opens a product",
+        "whatsapp": "WhatsApp chat",
+        "call": "Phone call",
+        "email": "Sends an email",
+        "url": "Another website",
+        "none": "No button"
+      },
+      "placeGroups": {
+        "shop": "Store pages",
+        "pages": "Your pages"
+      },
+      "places": {
+        "/": "Homepage",
+        "/products": "All products",
+        "/products?offer=1": "Special offers only",
+        "/categories": "All categories",
+        "/contact": "Contact us",
+        "/cart": "Cart",
+        "/account": "Customer account"
+      },
+      "whatsappNumber": "WhatsApp number",
+      "whatsappHint": "With the country code, numbers only — e.g. 201001234567",
+      "whatsappText": "Ready message (optional)",
+      "phoneNumber": "Phone number",
+      "emailAddress": "Email address",
+      "urlHint": "Starts with https://",
+      "categoriesAlign": "Position of the pictures",
+      "categoriesAlignHint": "The pictures move when the categories don't fill the whole row.",
+      "categoriesTitleAlign": "Position of the title",
+      "brandsAlign": "Position of the collections",
+      "brandsAlignHint": "The collections move when they don't fill the whole row.",
+      "k": {
+        "heroHeight": "Height",
+        "heroHeights": {
+          "md": "Original",
+          "lg": "Taller",
+          "full": "Whole screen"
+        },
+        "look": "Look",
+        "categoryStyles": {
+          "circles": "Round pictures",
+          "tiles": "Square tiles, name on the picture"
+        },
+        "fullWidth": "Edge to edge, no gaps",
+        "imageTextLayouts": {
+          "card": "Picture and text apart",
+          "split": "Side by side, framed text",
+          "editorial": "Editorial (tall picture, quiet text)"
+        },
+        "bgVideo": "Video",
+        "videoFileHint": "A link to an .mp4 file. It plays silently and repeats behind the words.",
+        "textPosition": "Words position",
+        "handle": "Account name (shown on each picture)",
+        "profileUrl": "Account link",
+        "posts": "Pictures",
+        "postLink": "Post link (optional — empty opens the account)",
+        "accentHint": "Tip: put *stars* around words to show them in the italic accent style, e.g. Signature *Pieces*.",
+        "socialLooks": {
+          "posts": "Tall posts with the account name",
+          "gallery": "Plain pictures, edge to edge"
+        },
+        "heroLooks": {
+          "classic": "Classic (big title and buttons)",
+          "editorial": "Editorial (small words at the bottom)"
+        },
+        "heroEditorialHint": "The slide's text shows in small capitals at the bottom (*stars* = italic words). The first button shows as a small word with a thin line. The title is kept for search engines only.",
+        "productLayouts": {
+          "grid": "Grid",
+          "carousel": "Slider with tabs"
+        },
+        "titleStyle": "Title look",
+        "titleStyles": {
+          "classic": "Classic (with “View all”)",
+          "centered": "Small capitals in the middle"
+        },
+        "allLabel": "Name of the first tab (empty = “All”)",
+        "tabs": "Tabs",
+        "tabLabel": "Tab name",
+        "tabTag": "Or products with this tag",
+        "tabTagHint": "Optional, e.g. gold or diamond — the tag written on the product. Leave the category empty to use only the tag.",
+        "spotlightCount": "Product cards next to the picture",
+        "places": "Places",
+        "placeName": "Place name",
+        "shade": "Shade over the picture"
+      }
+    },
+    "rte": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "h2": "Heading",
+      "h3": "Sub-heading",
+      "ul": "List",
+      "ol": "Numbered list",
+      "link": "Link",
+      "unlink": "Remove link",
+      "linkPrompt": "Link (starts with https:// or /)",
+      "clear": "Clear formatting"
+    },
+    "errors": {
+      "required": "Required",
+      "invalidSlug": "Lower-case English letters, numbers and dashes only",
+      "slug_taken": "This link is already used.",
+      "system_page": "Main pages can't be deleted or have their link changed.",
+      "nothing_to_publish": "No changes to publish.",
+      "not_found": "Page not found.",
+      "validation": "Check the highlighted fields.",
+      "forbidden": "You don't have permission to edit content.",
+      "failed": "Couldn't save. Please try again.",
+      "incomplete": "Fill in the missing fields first.",
+      "invalidLink": "A button's link isn't valid."
+    },
+    "shopTopNote": "This is not a page by itself: its sections show at the top of “{path}” on the website. Leave it empty for no hero.",
+    "shopTopBadge": "Top of a shop page"
+  },
+  "pricing": {
+    "gold": {
+      "title": "Today's gold prices",
+      "source": "Price source",
+      "erp": "Automatic from ERP",
+      "manual": "Manual",
+      "erpHint": "Prices come from the ERP automatically and the website follows them. \"Sync now\" pulls them right away.",
+      "manualHint": "You type the prices yourself — remember to update them every day.",
+      "karat": "Karat",
+      "karatN": "{k}K",
+      "price": "Price per gram ({currency})",
+      "change": "Change",
+      "updated": "Last update",
+      "save": "Save prices",
+      "saving": "Saving…",
+      "saved": "Prices saved — the website shows them now.",
+      "noChange": "No price changed.",
+      "sync": "Sync now",
+      "syncing": "Syncing…",
+      "synced": "Synced — {n} prices changed.",
+      "lastSync": "Last sync {when}",
+      "bigTitle": "Big price change",
+      "bigText": "The {karat} price will change by {pct}. Check the number before saving.",
+      "confirm": "Save anyway",
+      "cancel": "Review",
+      "example": "Example: a 10 g {karat} piece = {price} of gold (before making charge)",
+      "history": "Recent changes",
+      "noHistory": "No changes yet.",
+      "by": "by {name}",
+      "fromErp": "from ERP"
+    },
+    "lock": {
+      "title": "Price lock at checkout",
+      "minutes": "Lock time (minutes)",
+      "minutesHint": "The cart price stays fixed for the customer this long while checking out.",
+      "tolerance": "Largest rise allowed without asking the customer (%)",
+      "toleranceHint": "If the gold price rises during checkout by less than this, the order goes through at the price the customer saw (the store absorbs the difference). Price drops always go through. 0 = ask on any rise.",
+      "save": "Save",
+      "saved": "Saved."
+    },
+    "coupons": {
+      "title": "Discount codes & special offers",
+      "new": "New coupon / offer",
+      "empty": "No coupons yet.",
+      "note": "Discounts apply to the making charge only unless you choose \"of the order total\" — the gold value is never discounted.",
+      "columns": {
+        "code": "Code",
+        "discount": "Discount",
+        "min": "Minimum",
+        "usage": "Used",
+        "validity": "Valid",
+        "status": "Status"
+      },
+      "percentMaking": "{v}% off making",
+      "percentSubtotal": "{v}% off the order",
+      "amount": "{amount} off",
+      "freeShipping": "Free delivery",
+      "upTo": "up to {amount}",
+      "unlimited": "∞",
+      "given": "Given: {amount}",
+      "from": "from {date}",
+      "until": "until {date}",
+      "always": "Always",
+      "status": {
+        "active": "Active",
+        "scheduled": "Starts later",
+        "expired": "Expired",
+        "used_up": "Used up",
+        "paused": "Paused"
+      },
+      "edit": "Edit",
+      "pause": "Pause",
+      "activate": "Activate",
+      "delete": "Delete",
+      "deleteConfirm": "Delete the coupon {code}? Orders that used it stay as they are.",
+      "offerBadge": "Special offer",
+      "noCode": "No code",
+      "allProducts": "All products",
+      "someProducts": "{n} products",
+      "perPiece": "per piece",
+      "form": {
+        "newTitle": "New coupon",
+        "editTitle": "Edit coupon {code}",
+        "code": "Code",
+        "codeHint": "Capital English letters and numbers, e.g. EID15",
+        "generate": "Generate",
+        "kind": "Discount type",
+        "kinds": {
+          "percent_making": "% of making charge",
+          "percent_subtotal": "% of the order total",
+          "amount": "Fixed amount",
+          "free_shipping": "Free delivery"
+        },
+        "percent": "Percent (%)",
+        "amountValue": "Amount ({currency})",
+        "maxDiscount": "Max discount per order ({currency}) — optional",
+        "minSubtotal": "Minimum order ({currency})",
+        "minHint": "0 = no minimum",
+        "startsAt": "Starts (optional)",
+        "endsAt": "Ends (optional)",
+        "usageLimit": "Number of uses (optional)",
+        "usageHint": "Empty = unlimited",
+        "labelAr": "Text the customer sees (Arabic)",
+        "labelEn": "Text the customer sees (English)",
+        "suggest": "Suggest text",
+        "active": "Active",
+        "create": "Add coupon",
+        "save": "Save",
+        "saving": "Saving…",
+        "cancel": "Cancel",
+        "mode": "How does the customer get it?",
+        "modes": {
+          "code": "Discount code",
+          "offer": "Special offer"
+        },
+        "modeHints": {
+          "code": "The customer types the code at checkout.",
+          "offer": "No code — the lower price shows on the product itself, with the old price crossed out."
+        },
+        "newOfferTitle": "New special offer",
+        "editOfferTitle": "Edit special offer",
+        "createOffer": "Add offer",
+        "scope": "Which products?",
+        "scopes": {
+          "all": "All products",
+          "some": "Chosen products"
+        },
+        "productSearch": "Search by name or code",
+        "productsChosen": "{n} chosen",
+        "productsNone": "No products match.",
+        "clearProducts": "Clear",
+        "productsHint": "The discount is taken from each chosen piece.",
+        "maxDiscountPiece": "Max discount per piece ({currency}) — optional"
+      }
+    },
+    "viewOnly": "View only — editing needs the edit pricing permission.",
+    "errors": {
+      "required": "Required",
+      "codeFormat": "At least 3 characters — English letters and numbers only",
+      "percentRange": "Between 1 and 100",
+      "endBeforeStart": "The end date is before the start",
+      "invalidDate": "Invalid date",
+      "lockRange": "Between 1 and 120 minutes",
+      "toleranceRange": "Between 0 and 5%",
+      "code_taken": "This code already exists.",
+      "erp_source": "Prices come from the ERP — switch the source to \"Manual\" first.",
+      "not_found": "Not found.",
+      "validation": "Check the highlighted fields.",
+      "forbidden": "You don't have permission to edit pricing.",
+      "failed": "Couldn't save. Please try again.",
+      "offerNoShipping": "A special offer can't be free delivery.",
+      "productsRequired": "Choose at least one product."
+    }
+  },
+  "checkoutSettings": {
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved — the website's checkout is up to date.",
+    "unsaved": "You have unsaved changes.",
+    "discard": "Discard changes",
+    "zones": {
+      "title": "Delivery areas",
+      "add": "New area",
+      "note": "The order here is the order on the checkout page. Switched-off areas are hidden from customers.",
+      "empty": "No delivery areas.",
+      "columns": {
+        "area": "Area",
+        "fee": "Fee",
+        "freeOver": "Free over",
+        "time": "Delivery time",
+        "active": "Active"
+      },
+      "free": "Free",
+      "none": "—",
+      "edit": "Edit",
+      "delete": "Delete",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "deleteConfirm": "Delete the area \"{name}\"? Past orders aren't affected.",
+      "form": {
+        "newTitle": "New delivery area",
+        "editTitle": "Edit \"{name}\"",
+        "nameAr": "Name in Arabic",
+        "nameEn": "Name in English",
+        "namePlaceholder": "e.g. Cairo",
+        "fee": "Delivery fee ({currency})",
+        "freeOver": "Free delivery for orders over ({currency})",
+        "freeOverHint": "Leave empty if there's no free delivery",
+        "timeAr": "Delivery time in Arabic",
+        "timeEn": "Delivery time in English",
+        "timePlaceholder": "e.g. 1–2 days",
+        "active": "Active",
+        "done": "Done",
+        "cancel": "Cancel"
+      }
+    },
+    "pickup": {
+      "title": "Branch pickup",
+      "toggle": "Allow pickup from a branch (no delivery fee)",
+      "branches": "Pickup branches",
+      "noBranches": "No branches are set as pickup points.",
+      "manage": "Add and edit branches in Settings → Branches."
+    },
+    "tax": {
+      "title": "VAT & minimum order",
+      "vatPercent": "VAT rate (%)",
+      "vatBase": "Charged on",
+      "bases": {
+        "making_charge": "Making charge only",
+        "total": "The full price",
+        "none": "Prices include VAT"
+      },
+      "minOrder": "Minimum order ({currency})",
+      "minOrderHint": "Empty or 0 = no minimum",
+      "example": "Example: gold {gold} + making {making} → VAT {vat}"
+    },
+    "payments": {
+      "title": "Payment methods",
+      "hint": "Methods switched on here show on the checkout page, in this order.",
+      "add": "New payment method",
+      "addTitle": "New payment method",
+      "addHint": "Choose what kind it is, then name it. You can add the description and transfer details after.",
+      "kind": "Kind",
+      "kindHints": {
+        "bank_transfer": "Bank account, InstaPay, mobile wallet… the customer transfers and you confirm",
+        "cash_on_delivery": "The courier collects the money",
+        "pay_in_store": "Paid at the branch when collecting",
+        "card": "Online card payment through the payment gateway"
+      },
+      "cardExists": "There's already a card method — only one payment gateway is connected",
+      "addButton": "Add",
+      "delete": "Delete",
+      "deleteConfirm": "Delete the payment method \"{name}\"? Past orders aren't affected.",
+      "types": {
+        "cash_on_delivery": "Cash on delivery",
+        "card": "Card",
+        "bank_transfer": "Bank transfer",
+        "pay_in_store": "Pay at the branch"
+      },
+      "details": "Details",
+      "hideDetails": "Hide details",
+      "labelAr": "Name shown to customers (Arabic)",
+      "labelEn": "Name shown to customers (English)",
+      "descAr": "Short description (Arabic)",
+      "descEn": "Short description (English)",
+      "instructionsAr": "Transfer details (Arabic)",
+      "instructionsEn": "Transfer details (English)",
+      "instructionsHint": "Shown to the customer after ordering and in the confirmation email: bank, account name, account number / IBAN.",
+      "maxTotal": "Largest order ({currency})",
+      "maxTotalHint": "Empty = no limit. e.g. cash on delivery up to 50,000 only.",
+      "upTo": "up to {amount}",
+      "availableFor": "Available with",
+      "delivery": "Delivery",
+      "pickup": "Branch pickup",
+      "cardNote": "Connecting the payment gateway (secret keys) is done on the server, not here.",
+      "moveUp": "Move up",
+      "moveDown": "Move down"
+    },
+    "viewOnly": "View only — editing needs the edit shipping & payment permission.",
+    "errors": {
+      "required": "Required",
+      "chooseOne": "Choose at least one",
+      "vatRange": "Between 0 and 100",
+      "duplicate": "Duplicate area",
+      "no_way_to_receive": "There's no way to receive an order — switch on at least one delivery area or branch pickup.",
+      "no_payment_for_delivery": "No payment method is on for delivery — switch at least one on.",
+      "no_payment_for_pickup": "No payment method is on for branch pickup — switch one on or turn pickup off.",
+      "validation": "Check the fields marked in red.",
+      "forbidden": "You don't have permission to edit shipping & payment.",
+      "failed": "Couldn't save. Please try again."
+    }
+  },
+  "settings": {
+    "tabs": {
+      "store": "Store details",
+      "branches": "Branches",
+      "staff": "Staff & permissions",
+      "account": "My account"
+    },
+    "common": {
+      "save": "Save",
+      "saving": "Saving…",
+      "saved": "Saved.",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "edit": "Edit",
+      "delete": "Delete",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "viewOnly": "View only — changing this needs the edit permission.",
+      "unsaved": "You have unsaved changes."
+    },
+    "store": {
+      "title": "Contact details",
+      "hint": "Shown on the website: footer, contact page, header buttons and order emails.",
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "whatsappHint": "With the country code, e.g. +201001234567. Empty = no WhatsApp button.",
+      "addressAr": "Address (Arabic)",
+      "addressEn": "Address (English)",
+      "hoursAr": "Customer-service hours (Arabic)",
+      "hoursEn": "Customer-service hours (English)",
+      "socialTitle": "Social media",
+      "socialHint": "Paste the page link. Empty = the icon is hidden.",
+      "networks": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "tiktok": "TikTok",
+        "x": "X (Twitter)",
+        "youtube": "YouTube",
+        "snapchat": "Snapchat"
+      },
+      "optionsTitle": "Website options",
+      "optionsHint": "Switches for the website. Changes show on the website at once.",
+      "guestCheckout": "Order without an account",
+      "guestCheckoutHint": "Off = customers must log in or create an account before ordering.",
+      "showWeight": "Show the weight",
+      "showWeightHint": "Weight in grams on product cards, the product page and the cart.",
+      "showGoldPrices": "Show “Today’s gold prices”",
+      "showGoldPricesHint": "The gold-price block on the homepage (add or move it in Homepage).",
+      "ordersEmail": "Email for new-order alerts",
+      "ordersEmailHint": "Gets a short copy of every new order. Empty = no copy."
+    },
+    "branches": {
+      "title": "Branches",
+      "hint": "Shown on the contact page and in “pick up from branch” at checkout, in this order.",
+      "add": "New branch",
+      "empty": "No branches yet.",
+      "pickup": "Pickup point",
+      "notPickup": "Not for pickup",
+      "noPickupWarning": "No branch is a pickup point — customers can't choose “pick up from branch” at checkout.",
+      "deleteConfirm": "Delete the branch “{name}”? Past orders aren't affected.",
+      "map": "Map",
+      "form": {
+        "newTitle": "New branch",
+        "editTitle": "Edit “{name}”",
+        "nameAr": "Name (Arabic)",
+        "nameEn": "Name (English)",
+        "cityAr": "City (Arabic)",
+        "cityEn": "City (English)",
+        "addressAr": "Address (Arabic)",
+        "addressEn": "Address (English)",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp (optional)",
+        "hoursAr": "Opening hours (Arabic)",
+        "hoursEn": "Opening hours (English)",
+        "mapUrl": "Map link (optional)",
+        "mapHint": "Google Maps → Share → Copy link.",
+        "image": "Picture (optional)",
+        "pickup": "Customers can pick up orders from this branch",
+        "done": "Save branch",
+        "cancel": "Cancel"
+      }
+    },
+    "staff": {
+      "hint": "Everyone who can log in to this dashboard, and what each person can do.",
+      "add": "Add staff member",
+      "columns": {
+        "name": "Name",
+        "role": "Role",
+        "lastLogin": "Last login",
+        "status": "Status"
+      },
+      "you": "You",
+      "active": "Active",
+      "inactive": "Switched off",
+      "never": "Never",
+      "custom": "Custom permissions",
+      "mustChange": "Temporary password",
+      "edit": "Edit",
+      "count": "{n} people"
+    },
+    "form": {
+      "newTitle": "New staff member",
+      "editTitle": "{name}",
+      "back": "Staff",
+      "details": "Details",
+      "nameAr": "Name (Arabic)",
+      "nameEn": "Name (English)",
+      "email": "Email",
+      "emailHint": "They log in with this email.",
+      "password": "Temporary password",
+      "passwordHint": "Give it to them yourself (in person or on WhatsApp). They'll be asked to choose their own at their first login.",
+      "generate": "Make one",
+      "copy": "Copy",
+      "copied": "Copied",
+      "active": "Can log in",
+      "activeHint": "Switch off to block their login at once, without deleting them.",
+      "access": "What can they do?",
+      "simple": "Simple",
+      "advanced": "Advanced",
+      "simpleHint": "Choose a ready-made role.",
+      "advancedHint": "Choose for each section: no access, view only, or view & edit.",
+      "startFrom": "Start from",
+      "resetToRole": "Back to the role's permissions",
+      "customNote": "Custom — different from “{role}”.",
+      "roleNotAllowed": "More than you have",
+      "levels": {
+        "none": "No access",
+        "view": "View",
+        "edit": "Edit"
+      },
+      "create": "Add staff member",
+      "save": "Save changes",
+      "created": "Added. Give them the temporary password — they'll choose their own at first login.",
+      "saved": "Saved — the changes work from their next click.",
+      "selfNote": "This is you: you can change your name and email, but not your own role, permissions or on/off switch.",
+      "ownerNote": "Owners can do everything, including managing staff and settings.",
+      "account": "Account",
+      "resetPassword": "Give a new temporary password",
+      "resetHint": "For someone who forgot their password. They'll choose their own at next login.",
+      "resetDone": "New temporary password: {password} — give it to them.",
+      "delete": "Delete staff member",
+      "deleteHint": "They can't log in any more. Their past work (orders, notes) keeps their name.",
+      "deleteConfirm": "Delete {name}?",
+      "lastLogin": "Last login: {when}",
+      "addedBy": "Added {when} by {name}"
+    },
+    "roleDesc": {
+      "owner": "Everything, including staff and settings.",
+      "manager": "Everything except staff; settings view only.",
+      "orders": "Orders, customers and messages; sees products.",
+      "content": "Products, categories, pages, homepage and media; sees prices.",
+      "designer": "Theme & design, pages, homepage and media; sees products.",
+      "viewer": "Sees orders, customers, reports and products; changes nothing."
+    },
+    "permissions": {
+      "orders": {
+        "name": "Orders",
+        "desc": "Orders list, status, payment, invoices"
+      },
+      "customers": {
+        "name": "Customers",
+        "desc": "Accounts, notes, stopping an account"
+      },
+      "inbox": {
+        "name": "Contact messages",
+        "desc": "Reading and replying"
+      },
+      "custom": {
+        "name": "Customization requests",
+        "desc": "Customers' photos and quotes"
+      },
+      "reports": {
+        "name": "Reports",
+        "desc": "Sales figures and exports"
+      },
+      "products": {
+        "name": "Products",
+        "desc": "Products, prices shown, stock"
+      },
+      "categories": {
+        "name": "Categories",
+        "desc": "Categories and their order"
+      },
+      "content": {
+        "name": "Pages, homepage & media",
+        "desc": "Site pages, homepage blocks, pictures"
+      },
+      "pricing": {
+        "name": "Gold prices & coupons",
+        "desc": "Today's price, price lock, discount codes"
+      },
+      "checkout": {
+        "name": "Shipping & payment",
+        "desc": "Delivery areas, payment methods, VAT"
+      },
+      "settings": {
+        "name": "Store details & branches",
+        "desc": "Contact details, social links, branches"
+      },
+      "staff": {
+        "name": "Staff & permissions",
+        "desc": "Adding people and choosing what they can do"
+      },
+      "theme": {
+        "name": "Theme & design",
+        "desc": "Colours, fonts, logo, website texts"
+      }
+    },
+    "account": {
+      "first": "Welcome! Please choose your own password to continue.",
+      "details": "My details",
+      "role": "Role",
+      "changePassword": "Change password",
+      "current": "Current password",
+      "next": "New password",
+      "repeat": "Repeat the new password",
+      "rules": "At least 8 characters, with letters and numbers.",
+      "changed": "Password changed.",
+      "noMatch": "The two new passwords don't match.",
+      "show": "Show",
+      "hide": "Hide",
+      "myAccess": "What I can do"
+    },
+    "errors": {
+      "required": "Required",
+      "emailInvalid": "Check the email",
+      "phoneInvalid": "Numbers, spaces, + and - only",
+      "urlInvalid": "Must start with https://",
+      "passwordShort": "At least 8 characters",
+      "passwordWeak": "Use letters and numbers",
+      "samePassword": "Choose a different password from the current one",
+      "email_taken": "Another staff member already uses this email.",
+      "last_owner": "There must always be at least one active owner.",
+      "self": "You can't change your own role, permissions or on/off switch.",
+      "owner_only": "Only an owner can do this for an owner.",
+      "above_you": "You can't give more than you have yourself.",
+      "wrong_password": "The current password is wrong.",
+      "too_many_attempts": "Too many tries. Please wait a few minutes.",
+      "validation": "Check the fields marked in red.",
+      "forbidden": "You don't have permission for this.",
+      "password_change_required": "Please change your password first.",
+      "not_found": "Not found — it may have been deleted.",
+      "failed": "Couldn't save. Please try again."
+    }
+  },
+  "notifications": {
+    "hint": "What happened in the store, newest first. You only get what your permissions allow.",
+    "all": "All",
+    "unread": "Unread",
+    "markAll": "Mark all as read",
+    "markRead": "Mark as read",
+    "empty": "No notifications yet.",
+    "emptyUnread": "You're all caught up — nothing unread.",
+    "more": "Show more",
+    "viewAll": "View all notifications",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "earlier": "Earlier",
+    "justNow": "Just now",
+    "minutesAgo": "{n} min ago",
+    "hoursAgo": "{n} h ago",
+    "unreadCount": "{n} unread",
+    "filterAll": "All kinds",
+    "failed": "Couldn't update. Please try again.",
+    "settings": {
+      "title": "What to notify me about",
+      "hint": "Switch off what you don't need — only affects you. Kinds of sections you can't open aren't listed.",
+      "saved": "Saved."
+    },
+    "names": {
+      "new_order": "New orders",
+      "order_waiting": "Waiting for confirmation",
+      "order_cancelled": "Cancelled by the customer",
+      "new_message": "Contact messages",
+      "new_custom": "Customization requests",
+      "out_of_stock": "Out of stock",
+      "low_stock": "Low stock",
+      "new_customer": "New customers",
+      "gold_price": "Gold price updates"
+    },
+    "types": {
+      "new_order": "New order {number} from {name} — {total}",
+      "order_waiting": "Order {number} ({name}) still not confirmed after {hours} hours",
+      "order_cancelled": "{name} cancelled order {number}",
+      "new_message": "New message from {name} — {subject}",
+      "new_custom": "New customization request from {name} — {type}",
+      "out_of_stock": "{name} is out of stock",
+      "low_stock": "{name}: only {qty} left",
+      "new_customer": "New customer account: {name}",
+      "gold_price": "Gold prices updated from the ERP — {karat}K: {from} → {to}"
+    },
+    "pieces": {
+      "ring": "Ring / band",
+      "necklace": "Chain / necklace",
+      "bracelet": "Bracelet / bangle",
+      "earrings": "Earrings",
+      "set": "Set",
+      "other": "Other"
+    }
+  },
+  "collections": {
+    "add": "New collection",
+    "dragHint": "Drag to change the order on the website (or use the arrows)",
+    "count": "{n} collections",
+    "products": "{n} products",
+    "visible": "Visible",
+    "hidden": "Hidden",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "orderSaved": "Order saved.",
+    "editTitle": "Edit collection: {name}",
+    "newTitle": "New collection",
+    "pick": "Choose a collection from the list to edit it.",
+    "intro": "Collections show in the “Our collections” block on the homepage and in the product filter. Put a product in a collection from the product's own page.",
+    "nameAr": "Name in Arabic",
+    "nameEn": "Name in English",
+    "slug": "Link (slug)",
+    "slugHint": "Shown in the page address: /products?brand={slug}",
+    "makeSlug": "Suggest from English name",
+    "image": "Picture",
+    "imageHint": "Shown on the homepage block — 4:3. No picture = a plain box with the name.",
+    "hide": "Hide from the website",
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved.",
+    "delete": "Delete collection",
+    "deleteConfirm": "Delete the collection \"{name}\"? Its products stay on the website, without a collection.",
+    "viewOnly": "View only — editing needs the edit categories permission.",
+    "back": "All collections",
+    "cancel": "Cancel",
+    "errors": {
+      "required": "Required",
+      "invalidSlug": "Lower-case English letters, numbers and dashes only",
+      "invalidUrl": "Invalid link",
+      "slug_taken": "This link is already used by another collection.",
+      "not_found": "Collection not found.",
+      "validation": "Check the fields marked in red.",
+      "forbidden": "You don't have permission to edit collections.",
+      "failed": "Couldn't save. Please try again."
+    }
+  },
+  "history": {
+    "undo": "Undo",
+    "redo": "Redo"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "about",
+  "status": "published",
+  "menu": "header",
+  "updatedAt": "2026-10-17T09:00:00Z",
+  "title": {
+    "en": "The Story",
+    "ar": "حكايتنا"
+  },
+  "seo": {
+    "title": {
+      "en": "The Story",
+      "ar": "حكايتنا"
+    },
+    "description": {
+      "en": "MASI — a family of jewellers since 1963.",
+      "ar": "ماسي — عائلة صاغة منذ 1963."
+    }
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "type": "page_hero",
+      "isActive": true,
+      "sortOrder": 1,
+      "data": {
+        "title": {
+          "en": "More than jewellery. *A story passed through generations.*",
+          "ar": "أكثر من مجوهرات. *حكاية تتوارثها الأجيال.*"
+        },
+        "image": {
+          "url": "/clients/masi/story/storefront-wide.jpg"
+        },
+        "height": "lg",
+        "breadcrumb": false
+      }
+    },
+    {
+      "id": "s2",
+      "type": "image_text",
+      "isActive": true,
+      "sortOrder": 2,
+      "data": {
+        "layout": "editorial",
+        "imagePosition": "start",
+        "eyebrow": {
+          "en": "El Sagha · 1963",
+          "ar": "الصاغة · 1963"
+        },
+        "title": {
+          "en": "Where it *began*",
+          "ar": "حيث *بدأت*"
+        },
+        "body": {
+          "en": "<p>Founded in 1963 by the Erian family in El Sagha, Cairo's historic gold quarter. A small counter, a family name, and a promise to craft pieces worth keeping.</p>",
+          "ar": "<p>تأسست عام 1963 على يد عائلة عريان في الصاغة، حي الذهب التاريخي في القاهرة. فاترينة صغيرة، واسم عائلة، ووعد بصناعة قطع تستحق أن تُحفظ.</p>"
+        },
+        "image": {
+          "url": "/clients/masi/story/el-sagha-opening.jpg"
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "image_text",
+      "isActive": true,
+      "sortOrder": 3,
+      "data": {
+        "layout": "editorial",
+        "imagePosition": "end",
+        "eyebrow": {
+          "en": "Heliopolis · 1977",
+          "ar": "مصر الجديدة · 1977"
+        },
+        "title": {
+          "en": "A family *showroom*",
+          "ar": "معرض *العائلة*"
+        },
+        "body": {
+          "en": "<p>The family grew into Heliopolis, where the showroom became home to generations of brides, gifts and first gestures.</p>",
+          "ar": "<p>كبرت العائلة إلى مصر الجديدة، حيث أصبح المعرض بيتًا لأجيال من العرائس والهدايا واللفتات الأولى.</p>"
+        },
+        "image": {
+          "url": "/clients/masi/story/family.jpg"
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "image_text",
+      "isActive": true,
+      "sortOrder": 4,
+      "data": {
+        "layout": "editorial",
+        "imagePosition": "start",
+        "eyebrow": {
+          "en": "Today",
+          "ar": "اليوم"
+        },
+        "title": {
+          "en": "A new chapter as *MASI*",
+          "ar": "فصل جديد باسم *ماسي*"
+        },
+        "body": {
+          "en": "<p>Designs developed exclusively for MASI, made by our jewellers with the same care — for everyday moments, and the ones you remember.</p>",
+          "ar": "<p>تصميمات حصرية لماسي يصنعها صاغتنا بنفس العناية — للحظات كل يوم، وللحظات التي لا تُنسى.</p>"
+        },
+        "image": {
+          "url": "/clients/masi/story/workshop.jpg"
+        },
+        "cta": {
+          "label": {
+            "en": "Discover the collection",
+            "ar": "اكتشف المجموعة"
+          },
+          "href": "/products"
+        }
+      }
+    }
+  ]
+}

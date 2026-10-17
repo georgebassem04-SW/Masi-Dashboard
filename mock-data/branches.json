@@ -1,0 +1,50 @@
+[
+  {
+    "id": "br-1",
+    "name": {
+      "en": "Heliopolis",
+      "ar": "مصر الجديدة"
+    },
+    "city": {
+      "en": "Cairo",
+      "ar": "القاهرة"
+    },
+    "address": {
+      "en": "Heliopolis, Cairo",
+      "ar": "مصر الجديدة، القاهرة"
+    },
+    "phone": "+20 100 000 0000",
+    "whatsapp": "+201000000000",
+    "hours": {
+      "en": "Sat – Thu: 11am – 10pm",
+      "ar": "السبت – الخميس: ١١ ص – ١٠ م"
+    },
+    "mapUrl": "https://maps.google.com/?q=Heliopolis+Cairo",
+    "isPickupPoint": true,
+    "sortOrder": 1
+  },
+  {
+    "id": "br-2",
+    "name": {
+      "en": "New Cairo",
+      "ar": "القاهرة الجديدة"
+    },
+    "city": {
+      "en": "Cairo",
+      "ar": "القاهرة"
+    },
+    "address": {
+      "en": "New Cairo — opening 2026",
+      "ar": "القاهرة الجديدة — الافتتاح 2026"
+    },
+    "phone": "+20 100 000 0000",
+    "whatsapp": "+201000000000",
+    "hours": {
+      "en": "Opening 2026",
+      "ar": "الافتتاح 2026"
+    },
+    "mapUrl": "https://maps.google.com/?q=New+Cairo",
+    "isPickupPoint": false,
+    "sortOrder": 2
+  }
+]

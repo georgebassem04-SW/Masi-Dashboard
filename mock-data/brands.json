@@ -1,0 +1,26 @@
+[
+  {
+    "id": "brand-signature",
+    "slug": "signature-collection",
+    "name": {
+      "en": "The Signature Collection",
+      "ar": "مجموعة سيجنتشر"
+    },
+    "logo": {
+      "url": "/clients/masi/home/signature.jpg"
+    },
+    "sortOrder": 1
+  },
+  {
+    "id": "brand-bridal",
+    "slug": "bridal",
+    "name": {
+      "en": "Bridal",
+      "ar": "العرائس"
+    },
+    "logo": {
+      "url": "/clients/masi/products/halo-bridal-set.jpg"
+    },
+    "sortOrder": 2
+  }
+]

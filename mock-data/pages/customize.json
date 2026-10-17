@@ -1,0 +1,191 @@
+{
+  "slug": "customize",
+  "status": "published",
+  "menu": "none",
+  "updatedAt": "2026-10-01T10:00:00Z",
+  "title": {
+    "ar": "صمّم قطعتك",
+    "en": "Design your piece"
+  },
+  "seo": {
+    "title": {
+      "ar": "صمّم قطعتك",
+      "en": "Design your piece"
+    },
+    "description": {
+      "ar": "ارفع صورة القطعة التي تحلم بها واكتب التفاصيل، ونرسل لك عرض السعر.",
+      "en": "Upload a photo of the piece you dream of, add the details, and we'll send you a quote."
+    }
+  },
+  "sections": [
+    {
+      "id": "cz1",
+      "type": "page_hero",
+      "isActive": true,
+      "sortOrder": 1,
+      "data": {
+        "title": {
+          "ar": "صمّم قطعتك",
+          "en": "Design your piece"
+        },
+        "subtitle": {
+          "ar": "عندك صورة لقطعة تحبها أو فكرة في بالك؟ نحوّلها لقطعة ذهب حقيقية بمقاسك وذوقك.",
+          "en": "Have a photo of a piece you love, or an idea in mind? We turn it into a real gold piece, in your size and style."
+        }
+      }
+    },
+    {
+      "id": "cz2",
+      "type": "custom_order",
+      "isActive": true,
+      "sortOrder": 2,
+      "data": {
+        "title": {
+          "ar": "أرسل لنا تصميمك",
+          "en": "Send us your design"
+        },
+        "subtitle": {
+          "ar": "ارفع صورة القطعة أو التصميم واكتب التفاصيل، وسيتواصل معك فريقنا بعرض السعر ومدة التنفيذ.",
+          "en": "Upload a photo of the piece or design and tell us the details — our team will get back to you with a price and timing."
+        },
+        "steps": [
+          {
+            "ar": "ارفع صورة القطعة أو التصميم",
+            "en": "Upload a photo of the piece or design"
+          },
+          {
+            "ar": "اكتب التفاصيل: المقاس، العيار، أي تعديل",
+            "en": "Add the details: size, karat, any changes"
+          },
+          {
+            "ar": "نراجع طلبك ونرسل لك عرض السعر",
+            "en": "We review it and send you a quote"
+          },
+          {
+            "ar": "بعد موافقتك نبدأ التنفيذ",
+            "en": "Once you agree, we start making it"
+          }
+        ],
+        "successMessage": {
+          "ar": "وصلنا طلبك! سيراجع فريقنا الصور والتفاصيل ويتواصل معك قريباً بعرض السعر.",
+          "en": "We've got your request! Our team will review the photos and details and contact you soon with a quote."
+        },
+        "showKarat": true,
+        "showBudget": true
+      }
+    },
+    {
+      "id": "cz3",
+      "type": "features",
+      "isActive": true,
+      "sortOrder": 3,
+      "data": {
+        "title": {
+          "ar": "لماذا تصمّم قطعتك معنا؟",
+          "en": "Why design your piece with us?"
+        },
+        "columns": 4,
+        "items": [
+          {
+            "icon": "gem",
+            "title": {
+              "ar": "حرفيون بخبرة",
+              "en": "Experienced craftsmen"
+            },
+            "text": {
+              "ar": "ننفّذ كل قطعة يدوياً في ورشتنا بعناية بالتفاصيل.",
+              "en": "Every piece is made by hand in our workshop, with care for every detail."
+            }
+          },
+          {
+            "icon": "scale",
+            "title": {
+              "ar": "سعر واضح قبل التنفيذ",
+              "en": "A clear price first"
+            },
+            "text": {
+              "ar": "تعرف السعر ومدة التنفيذ قبل أن نبدأ، بدون مفاجآت.",
+              "en": "You know the price and timing before we start — no surprises."
+            }
+          },
+          {
+            "icon": "shield",
+            "title": {
+              "ar": "ذهب مدموغ وضمان",
+              "en": "Hallmarked gold & warranty"
+            },
+            "text": {
+              "ar": "ذهب أصلي مدموغ مع فاتورة وضمان على الصنعة.",
+              "en": "Genuine hallmarked gold with an invoice and a craftsmanship warranty."
+            }
+          },
+          {
+            "icon": "sparkles",
+            "title": {
+              "ar": "نتابع معك خطوة بخطوة",
+              "en": "We keep you updated"
+            },
+            "text": {
+              "ar": "نرسل لك صور القطعة أثناء التنفيذ لتطمئن على كل مرحلة.",
+              "en": "We send you photos while the piece is being made, so you see every stage."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "cz4",
+      "type": "faq",
+      "isActive": true,
+      "sortOrder": 4,
+      "data": {
+        "title": {
+          "ar": "أسئلة شائعة عن التصميم الخاص",
+          "en": "Custom design questions"
+        },
+        "items": [
+          {
+            "question": {
+              "ar": "كم يستغرق تنفيذ القطعة؟",
+              "en": "How long does it take?"
+            },
+            "answer": {
+              "ar": "<p>تختلف المدة حسب التصميم، وعادةً ما بين أسبوع وثلاثة أسابيع. نخبرك بالمدة بالضبط مع عرض السعر.</p>",
+              "en": "<p>It depends on the design — usually one to three weeks. We tell you the exact time with the quote.</p>"
+            }
+          },
+          {
+            "question": {
+              "ar": "كيف يُحسب السعر؟",
+              "en": "How is the price worked out?"
+            },
+            "answer": {
+              "ar": "<p>السعر = وزن الذهب بسعر اليوم + المصنعية + الأحجار إن وُجدت. نرسل لك التفاصيل كاملة قبل التنفيذ.</p>",
+              "en": "<p>Price = gold weight at today's rate + making charge + any stones. We send you the full breakdown before we start.</p>"
+            }
+          },
+          {
+            "question": {
+              "ar": "هل يمكنني تعديل التصميم بعد إرسال الطلب؟",
+              "en": "Can I change the design after sending?"
+            },
+            "answer": {
+              "ar": "<p>نعم، قبل بدء التنفيذ يمكنك تعديل أي تفصيلة. فقط تواصل معنا برقم طلبك.</p>",
+              "en": "<p>Yes — any detail can change before we start making it. Just contact us with your request number.</p>"
+            }
+          },
+          {
+            "question": {
+              "ar": "هل الصورة لازم تكون لقطعة ذهب؟",
+              "en": "Does the photo have to be a gold piece?"
+            },
+            "answer": {
+              "ar": "<p>لا، أرسل أي صورة تعجبك: قطعة، رسمة، أو حتى فكرة من الإنترنت، وسنقترح عليك أفضل طريقة لتنفيذها.</p>",
+              "en": "<p>No — send any photo you like: a piece, a sketch, or an idea from the internet, and we'll suggest the best way to make it.</p>"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

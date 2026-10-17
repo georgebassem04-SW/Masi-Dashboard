@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ord-1042",
+    "number": "ORD-1042",
+    "customerName": "سارة العتيبي",
+    "city": "القاهرة",
+    "hoursAgo": 1,
+    "itemsCount": 2,
+    "total": 74800,
+    "status": "pending"
+  },
+  {
+    "id": "ord-1041",
+    "number": "ORD-1041",
+    "customerName": "محمد الشهري",
+    "city": "الجيزة",
+    "hoursAgo": 3,
+    "itemsCount": 1,
+    "total": 32150,
+    "status": "pending"
+  },
+  {
+    "id": "ord-1040",
+    "number": "ORD-1040",
+    "customerName": "نورة القحطاني",
+    "city": "الإسكندرية",
+    "hoursAgo": 14,
+    "itemsCount": 3,
+    "total": 129600,
+    "status": "processing"
+  },
+  {
+    "id": "ord-1039",
+    "number": "ORD-1039",
+    "customerName": "خالد المطيري",
+    "city": "القاهرة",
+    "hoursAgo": 18,
+    "itemsCount": 1,
+    "total": 23400,
+    "status": "shipped"
+  },
+  {
+    "id": "ord-1038",
+    "number": "ORD-1038",
+    "customerName": "ريم الدوسري",
+    "city": "المنصورة",
+    "hoursAgo": 22,
+    "itemsCount": 2,
+    "total": 58700,
+    "status": "delivered"
+  },
+  {
+    "id": "ord-1037",
+    "number": "ORD-1037",
+    "customerName": "عبدالله الحربي",
+    "city": "طنطا",
+    "hoursAgo": 25,
+    "itemsCount": 1,
+    "total": 19900,
+    "status": "cancelled"
+  },
+  {
+    "id": "ord-1036",
+    "number": "ORD-1036",
+    "customerName": "هيا السبيعي",
+    "city": "القاهرة",
+    "hoursAgo": 50,
+    "itemsCount": 4,
+    "total": 184200,
+    "status": "delivered"
+  },
+  {
+    "id": "ord-1035",
+    "number": "ORD-1035",
+    "customerName": "فهد الزهراني",
+    "city": "أسيوط",
+    "hoursAgo": 52,
+    "itemsCount": 1,
+    "total": 41500,
+    "status": "shipped"
+  }
+]
